@@ -1,0 +1,1 @@
+{"version":3,"file":"Api.js","sourceRoot":"","sources":["../../../../../../src/plugins/contextmenu/main/ts/api/Api.ts"],"names":[],"mappings":"AAAA;;;;;;;;GAQG;AAEH,IAAM,GAAG,GAAG,UAAU,YAAY;IAChC,IAAM,oBAAoB,GAAG;QAC3B,MAAM,CAAC,YAAY,CAAC,GAAG,EAAE,CAAC;IAC5B,CAAC,CAAC;IAEF,MAAM,CAAC;QACL,oBAAoB,sBAAA;KACrB,CAAC;AACJ,CAAC,CAAC;AAEF,eAAe;IACb,GAAG,KAAA;CACJ,CAAC"}
