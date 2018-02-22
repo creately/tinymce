@@ -1,1 +1,0 @@
-{"version":3,"file":"Api.js","sourceRoot":"","sources":["../../../../../../src/plugins/lists/main/ts/api/Api.ts"],"names":[],"mappings":"AAAA;;;;;;;;GAQG;AAEH,OAAO,MAAM,MAAM,gBAAgB,CAAC;AAEpC,IAAM,GAAG,GAAG,UAAU,MAAM;IAC1B,MAAM,CAAC;QACL,eAAe,YAAE,SAAS;YACxB,MAAM,CAAC,eAAe,CAAC,MAAM,EAAE,SAAS,CAAC,CAAC;QAC5C,CAAC;KACF,CAAC;AACJ,CAAC,CAAC;AAEF,eAAe;IACb,GAAG,KAAA;CACJ,CAAC"}
