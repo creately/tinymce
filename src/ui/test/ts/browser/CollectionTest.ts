@@ -2,8 +2,8 @@ import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
 import EventUtils from 'tinymce/src/core/main/ts/api/dom/EventUtils';
 import ViewBlock from '../module/test/ViewBlock';
-import Api from 'tinymce/ui/Api';
-import Collection from 'tinymce/ui/Collection';
+import Api from 'tinymce/src/ui/main/ts/Api';
+import Collection from 'tinymce/src/ui/main/ts/Collection';
 import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import { UnitTest } from '@ephox/bedrock';
 

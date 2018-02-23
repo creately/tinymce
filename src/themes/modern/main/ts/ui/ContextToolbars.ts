@@ -13,7 +13,7 @@ import Rect from 'tinymce/src/core/main/ts/api/geom/Rect';
 import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
-import UiContainer from 'tinymce/ui/UiContainer';
+import UiContainer from 'tinymce/src/ui/main/ts/UiContainer';
 import * as Settings from '../api/Settings';
 import Toolbar from './Toolbar';
 

@@ -3,9 +3,9 @@ import { LegacyUnit } from '@ephox/mcagar';
 import EventUtils from 'tinymce/src/core/main/ts/api/dom/EventUtils';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import ViewBlock from '../module/test/ViewBlock';
-import Api from 'tinymce/ui/Api';
-import Container from 'tinymce/ui/Container';
-import Control from 'tinymce/ui/Control';
+import Api from 'tinymce/src/ui/main/ts/Api';
+import Container from 'tinymce/src/ui/main/ts/Container';
+import Control from 'tinymce/src/ui/main/ts/Control';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.ui.ControlTest', function () {

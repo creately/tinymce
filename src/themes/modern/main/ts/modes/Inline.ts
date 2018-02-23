@@ -17,8 +17,8 @@ import ContextToolbars from '../ui/ContextToolbars';
 import Menubar from '../ui/Menubar';
 import SkinLoaded from '../ui/SkinLoaded';
 import Toolbar from '../ui/Toolbar';
-import FloatPanel from 'tinymce/ui/FloatPanel';
-import UiContainer from 'tinymce/ui/UiContainer';
+import FloatPanel from 'tinymce/src/ui/main/ts/FloatPanel';
+import UiContainer from 'tinymce/src/ui/main/ts/UiContainer';
 
 const isFixed = function (inlineToolbarContainer, editor) {
   return !!(inlineToolbarContainer && !editor.settings.ui_container);

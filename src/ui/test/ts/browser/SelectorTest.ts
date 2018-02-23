@@ -3,7 +3,7 @@ import { LegacyUnit } from '@ephox/mcagar';
 import EventUtils from 'tinymce/src/core/main/ts/api/dom/EventUtils';
 import UiUtils from '../module/test/UiUtils';
 import ViewBlock from '../module/test/ViewBlock';
-import Api from 'tinymce/ui/Api';
+import Api from 'tinymce/src/ui/main/ts/Api';
 import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import { UnitTest } from '@ephox/bedrock';
 

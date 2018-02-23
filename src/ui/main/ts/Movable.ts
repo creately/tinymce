@@ -9,7 +9,7 @@
  */
 
 import DomUtils from './DomUtils';
-import UiContainer from 'tinymce/ui/UiContainer';
+import UiContainer from 'tinymce/src/ui/main/ts/UiContainer';
 
 /**
  * Movable mixin. Makes controls movable absolute and relative to other elements.

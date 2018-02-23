@@ -10,8 +10,8 @@
 
 import Render from '../ui/Render';
 import Resize from '../ui/Resize';
-import NotificationManagerImpl from 'tinymce/ui/NotificationManagerImpl';
-import WindowManagerImpl from 'tinymce/ui/WindowManagerImpl';
+import NotificationManagerImpl from 'tinymce/src/ui/main/ts/NotificationManagerImpl';
+import WindowManagerImpl from 'tinymce/src/ui/main/ts/WindowManagerImpl';
 
 const get = function (editor) {
   const renderUI = function (args) {

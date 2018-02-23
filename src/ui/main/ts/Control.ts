@@ -18,7 +18,7 @@ import Collection from './Collection';
 import ObservableObject from './data/ObservableObject';
 import DomUtils from './DomUtils';
 import ReflowQueue from './ReflowQueue';
-import UiContainer from 'tinymce/ui/UiContainer';
+import UiContainer from 'tinymce/src/ui/main/ts/UiContainer';
 
 /*eslint consistent-this:0 */
 

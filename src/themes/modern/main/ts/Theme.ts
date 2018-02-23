@@ -10,8 +10,8 @@
 
 import ThemeManager from 'tinymce/src/core/main/ts/api/ThemeManager';
 import ThemeApi from './api/ThemeApi';
-import Api from 'tinymce/ui/Api';
-import FormatControls from 'tinymce/ui/FormatControls';
+import Api from 'tinymce/src/ui/main/ts/Api';
+import FormatControls from 'tinymce/src/ui/main/ts/FormatControls';
 
 declare let window: any;
 

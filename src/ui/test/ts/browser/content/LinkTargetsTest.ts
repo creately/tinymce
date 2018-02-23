@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import LinkTargets from 'tinymce/ui/content/LinkTargets';
+import LinkTargets from 'tinymce/src/ui/main/ts/content/LinkTargets';
 import { Arr } from '@ephox/katamari';
 import { UnitTest } from '@ephox/bedrock';
 

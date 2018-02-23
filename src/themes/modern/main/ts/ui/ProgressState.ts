@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Throbber from 'tinymce/ui/Throbber';
+import Throbber from 'tinymce/src/ui/main/ts/Throbber';
 
 const setup = function (editor, theme) {
   let throbber;

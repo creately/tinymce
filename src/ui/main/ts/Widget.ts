@@ -10,7 +10,7 @@
 
 import Control from './Control';
 import Tooltip from './Tooltip';
-import UiContainer from 'tinymce/ui/UiContainer';
+import UiContainer from 'tinymce/src/ui/main/ts/UiContainer';
 
 /**
  * Widget base class a widget is a control that has a tooltip and some basic states.

@@ -20,7 +20,7 @@ import Resize from '../ui/Resize';
 import Sidebar from '../ui/Sidebar';
 import SkinLoaded from '../ui/SkinLoaded';
 import Toolbar from '../ui/Toolbar';
-import UiContainer from 'tinymce/ui/UiContainer';
+import UiContainer from 'tinymce/src/ui/main/ts/UiContainer';
 
 const DOM = DOMUtils.DOM;
 
