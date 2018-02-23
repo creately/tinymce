@@ -3,7 +3,7 @@ import { Focus, Hierarchy, Element } from '@ephox/sugar';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import EditorFocus from 'tinymce/src/core/main/ts/focus/EditorFocus';
 import ViewBlock from '../../module/test/ViewBlock';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.focus.EditorFocusTest', function () {

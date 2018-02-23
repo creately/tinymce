@@ -5,7 +5,7 @@ import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import Env from 'tinymce/src/core/main/ts/api/Env';
 import TablePlugin from 'tinymce/plugins/table/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest(
   'browser.tinymce.plugins.table.quirks.KeyboardCellNavigationTest',

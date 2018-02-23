@@ -3,7 +3,7 @@ import { Arr } from '@ephox/katamari';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Remove, Replication, Element, Attr, Html, SelectorFilter } from '@ephox/sugar';
 import TableDelete from 'tinymce/src/core/main/ts/delete/TableDelete';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.delete.TableDeleteTest', function () {

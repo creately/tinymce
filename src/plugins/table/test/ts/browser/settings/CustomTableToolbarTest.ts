@@ -4,7 +4,7 @@ import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 import { SelectorFilter } from '@ephox/sugar';
 
 import TablePlugin from 'tinymce/plugins/table/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import TableTestUtils from '../../module/test/TableTestUtils';
 

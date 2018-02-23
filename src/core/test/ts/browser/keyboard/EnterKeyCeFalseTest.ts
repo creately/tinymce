@@ -2,7 +2,7 @@ import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 import HtmlUtils from '../../module/test/HtmlUtils';
 import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.keyboard.EnterKeyCeFalseTest', function () {

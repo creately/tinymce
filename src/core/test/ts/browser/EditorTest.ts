@@ -4,7 +4,7 @@ import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import Env from 'tinymce/src/core/main/ts/api/Env';
 import HtmlUtils from '../module/test/HtmlUtils';
 import URI from 'tinymce/src/core/main/ts/api/util/URI';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.EditorTest', function () {

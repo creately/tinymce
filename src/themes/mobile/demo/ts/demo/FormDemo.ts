@@ -2,9 +2,9 @@ import { Attachment, Gui, GuiFactory } from '@ephox/alloy';
 import { Option } from '@ephox/katamari';
 import { SelectorFind } from '@ephox/sugar';
 
-import Inputs from 'tinymce/themes/mobile/ui/Inputs';
-import SerialisedDialog from 'tinymce/themes/mobile/ui/SerialisedDialog';
-import UiDomFactory from 'tinymce/themes/mobile/util/UiDomFactory';
+import Inputs from 'tinymce/src/themes/mobile/main/ts/ui/Inputs';
+import SerialisedDialog from 'tinymce/src/themes/mobile/main/ts/ui/SerialisedDialog';
+import UiDomFactory from 'tinymce/src/themes/mobile/main/ts/util/UiDomFactory';
 
 export default function () {
   const ephoxUi = SelectorFind.first('#ephox-ui').getOrDie();

@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
-import InliteTheme from 'tinymce/themes/inlite/Theme';
+import InliteTheme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 import Toolbar from '../module/test/Toolbar';
 

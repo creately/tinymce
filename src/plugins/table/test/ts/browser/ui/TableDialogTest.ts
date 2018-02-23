@@ -8,7 +8,7 @@ import { Element, SelectorFind } from '@ephox/sugar';
 
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import Plugin from 'tinymce/plugins/table/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.table.TableDialogTest', function () {
   const success = arguments[arguments.length - 2];

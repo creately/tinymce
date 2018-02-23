@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
 import Plugin from 'tinymce/plugins/table/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.table.NewCellRowEventsTest', function () {
   const success = arguments[arguments.length - 2];

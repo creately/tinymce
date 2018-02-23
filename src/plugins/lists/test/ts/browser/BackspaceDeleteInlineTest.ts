@@ -3,7 +3,7 @@ import { LegacyUnit } from '@ephox/mcagar';
 import DomQuery from 'tinymce/src/core/main/ts/api/dom/DomQuery';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import Plugin from 'tinymce/plugins/lists/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('tinymce.lists.browser.BackspaceDeleteInlineTest', function () {

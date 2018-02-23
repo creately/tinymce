@@ -1,4 +1,4 @@
-import SmoothAnimation from 'tinymce/themes/mobile/ios/smooth/SmoothAnimation';
+import SmoothAnimation from 'tinymce/src/themes/mobile/main/ts/ios/smooth/SmoothAnimation';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('Smooth Animation AdjustTest', function () {

@@ -1,7 +1,7 @@
 import { Assertions, Logger, Pipeline, Step } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import BoxUtils from 'tinymce/src/ui/main/ts/BoxUtils';
 
 UnitTest.asynctest('browser.tinymce.ui.BoxUtilsMeasureBoxIframeDisplayNoneTest', function () {

@@ -1,7 +1,7 @@
 import { Pipeline, RawAssertions, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 import CodePlugin from 'tinymce/plugins/code/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.plugins.code.CodeSanityTest', function () {

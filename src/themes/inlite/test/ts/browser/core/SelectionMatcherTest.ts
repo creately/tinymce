@@ -2,8 +2,8 @@ import { Assertions, GeneralSteps, Pipeline, Step } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
-import SelectionMatcher from 'tinymce/themes/inlite/core/SelectionMatcher';
-import InliteTheme from 'tinymce/themes/inlite/Theme';
+import SelectionMatcher from 'tinymce/src/themes/inlite/main/ts/core/SelectionMatcher';
+import InliteTheme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 UnitTest.asynctest('browser.core.SelectionMatcherTest', function () {
   const success = arguments[arguments.length - 2];

@@ -1,5 +1,5 @@
 import { RawAssertions } from '@ephox/agar';
-import StyleConversions from 'tinymce/themes/mobile/util/StyleConversions';
+import StyleConversions from 'tinymce/src/themes/mobile/main/ts/util/StyleConversions';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.test('Atomic Test: styles.StyleConversionsTest', function () {

@@ -4,7 +4,7 @@ import { TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import ColorPickerPlugin from 'tinymce/plugins/colorpicker/Plugin';
 import TextColorPlugin from 'tinymce/plugins/textcolor/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.colorpicker.ColorPickerSanityTest', function () {
   const success = arguments[arguments.length - 2];

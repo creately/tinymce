@@ -6,7 +6,7 @@ import { TinyApis, TinyDom, TinyLoader, TinyUi } from '@ephox/mcagar';
 import { Html } from '@ephox/sugar';
 
 import MediaPlugin from 'tinymce/plugins/media/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import Utils from '../module/test/Utils';
 

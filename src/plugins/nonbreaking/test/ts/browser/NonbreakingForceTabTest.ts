@@ -3,7 +3,7 @@ import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 import { UnitTest } from '@ephox/bedrock';
 import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import NonbreakingPlugin from 'tinymce/plugins/nonbreaking/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest(
   'browser.tinymce.plugins.nonbreaking.NonbreakingForceTabTest',

@@ -5,7 +5,7 @@ import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
 import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import FilePicker from 'tinymce/src/ui/main/ts/FilePicker';
 
 UnitTest.asynctest('browser.tinymce.ui.FilePickerTest', function () {

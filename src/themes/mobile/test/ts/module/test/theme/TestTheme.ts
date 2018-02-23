@@ -3,8 +3,8 @@ import { Arr, Fun } from '@ephox/katamari';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import ThemeManager from 'tinymce/src/core/main/ts/api/ThemeManager';
-import Features from 'tinymce/themes/mobile/features/Features';
-import FormatChangers from 'tinymce/themes/mobile/util/FormatChangers';
+import Features from 'tinymce/src/themes/mobile/main/ts/features/Features';
+import FormatChangers from 'tinymce/src/themes/mobile/main/ts/util/FormatChangers';
 
 const name = 'test';
 

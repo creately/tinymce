@@ -4,7 +4,7 @@ import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import Env from 'tinymce/src/core/main/ts/api/Env';
 import Conversions from 'tinymce/src/core/main/ts/file/Conversions';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.EditorUploadTest', function () {

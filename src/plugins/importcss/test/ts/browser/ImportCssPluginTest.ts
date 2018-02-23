@@ -5,7 +5,7 @@ import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
 import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import ImportCssPlugin from 'tinymce/plugins/importcss/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.importcss.ImportCssPluginTest.js', function () {
   const success = arguments[arguments.length - 2];

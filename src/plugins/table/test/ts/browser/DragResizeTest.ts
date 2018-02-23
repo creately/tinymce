@@ -7,7 +7,7 @@ import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Element, Height, Hierarchy, Width } from '@ephox/sugar';
 
 import TablePlugin from 'tinymce/plugins/table/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.table.DragResizeTest', function () {
   const success = arguments[arguments.length - 2];

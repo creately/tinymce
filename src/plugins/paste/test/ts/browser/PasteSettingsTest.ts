@@ -4,7 +4,7 @@ import { Merger } from '@ephox/katamari';
 
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import Plugin from 'tinymce/plugins/paste/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import ViewBlock from '../module/test/ViewBlock';
 

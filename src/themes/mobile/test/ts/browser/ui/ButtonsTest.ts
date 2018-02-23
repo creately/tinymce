@@ -3,9 +3,9 @@ import { Attachment, Memento } from '@ephox/alloy';
 import { UnitTest } from '@ephox/bedrock';
 import { Body, Class, Traverse } from '@ephox/sugar';
 
-import TinyChannels from 'tinymce/themes/mobile/channels/TinyChannels';
-import Buttons from 'tinymce/themes/mobile/ui/Buttons';
-import IosRealm from 'tinymce/themes/mobile/ui/IosRealm';
+import TinyChannels from 'tinymce/src/themes/mobile/main/ts/channels/TinyChannels';
+import Buttons from 'tinymce/src/themes/mobile/main/ts/ui/Buttons';
+import IosRealm from 'tinymce/src/themes/mobile/main/ts/ui/IosRealm';
 
 import GuiSetup from '../../module/test/GuiSetup';
 import TestEditor from '../../module/test/ui/TestEditor';

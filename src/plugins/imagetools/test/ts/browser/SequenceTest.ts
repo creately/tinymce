@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import Plugin from 'tinymce/plugins/imagetools/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import ImageOps from '../module/test/ImageOps';
 import ImageUtils from '../module/test/ImageUtils';

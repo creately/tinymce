@@ -2,9 +2,9 @@ import { Assertions, Pipeline, Step } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
-import ElementMatcher from 'tinymce/themes/inlite/core/ElementMatcher';
-import PredicateId from 'tinymce/themes/inlite/core/PredicateId';
-import Theme from 'tinymce/themes/inlite/Theme';
+import ElementMatcher from 'tinymce/src/themes/inlite/main/ts/core/ElementMatcher';
+import PredicateId from 'tinymce/src/themes/inlite/main/ts/core/PredicateId';
+import Theme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 UnitTest.asynctest('browser.core.ElementMatcherTest', function () {
   const success = arguments[arguments.length - 2];

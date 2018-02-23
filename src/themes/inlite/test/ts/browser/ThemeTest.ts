@@ -10,7 +10,7 @@ import LinkPlugin from 'tinymce/plugins/link/Plugin';
 import PastePlugin from 'tinymce/plugins/paste/Plugin';
 import TablePlugin from 'tinymce/plugins/table/Plugin';
 import TextPatternPlugin from 'tinymce/plugins/textpattern/Plugin';
-import InliteTheme from 'tinymce/themes/inlite/Theme';
+import InliteTheme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 import Toolbar from '../module/test/Toolbar';
 

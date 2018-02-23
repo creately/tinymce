@@ -4,7 +4,7 @@ import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import Env from 'tinymce/src/core/main/ts/api/Env';
 import TextcolorPlugin from 'tinymce/plugins/textcolor/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.textcolor.TextcolorSanityTest.js', function () {
   const success = arguments[arguments.length - 2];

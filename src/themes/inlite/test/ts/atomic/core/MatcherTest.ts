@@ -1,4 +1,4 @@
-import Matcher from 'tinymce/themes/inlite/core/Matcher';
+import Matcher from 'tinymce/src/themes/inlite/main/ts/core/Matcher';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('browser.themes.inlite.MatcherTest', function () {

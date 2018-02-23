@@ -7,7 +7,7 @@ import PluginManager from 'tinymce/src/core/main/ts/api/PluginManager';
 import ViewBlock from '../module/test/ViewBlock';
 import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.EditorManagerTest', function () {

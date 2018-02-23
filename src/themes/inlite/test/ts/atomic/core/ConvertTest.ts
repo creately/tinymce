@@ -1,4 +1,4 @@
-import Convert from 'tinymce/themes/inlite/core/Convert';
+import Convert from 'tinymce/src/themes/inlite/main/ts/core/Convert';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('atomic.themes.core.ConvertTest', function () {

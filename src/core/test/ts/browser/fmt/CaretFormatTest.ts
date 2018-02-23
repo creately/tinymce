@@ -4,7 +4,7 @@ import { Element } from '@ephox/sugar';
 import CaretFormat from 'tinymce/src/core/main/ts/fmt/CaretFormat';
 import TypeText from '../../module/test/TypeText';
 import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.fmt.CaretFormatTest', function () {

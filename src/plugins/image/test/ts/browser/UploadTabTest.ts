@@ -5,7 +5,7 @@ import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import Conversions from 'tinymce/src/core/main/ts/file/Conversions';
 import Plugin from 'tinymce/plugins/image/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.image.ImagePluginTest', function () {
   const success = arguments[arguments.length - 2];

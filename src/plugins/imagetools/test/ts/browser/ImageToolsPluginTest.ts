@@ -4,7 +4,7 @@ import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import URI from 'tinymce/src/core/main/ts/api/util/URI';
 import Plugin from 'tinymce/plugins/imagetools/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import ImageUtils from '../module/test/ImageUtils';
 

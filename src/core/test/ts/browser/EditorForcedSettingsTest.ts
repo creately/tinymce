@@ -1,6 +1,6 @@
 import { Assertions, Pipeline } from '@ephox/agar';
 import { TinyLoader } from '@ephox/mcagar';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.EditorForcedSettingsTest', function () {

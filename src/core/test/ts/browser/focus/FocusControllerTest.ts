@@ -3,7 +3,7 @@ import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 import FocusManager from 'tinymce/src/core/main/ts/api/FocusManager';
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import FocusController from 'tinymce/src/core/main/ts/focus/FocusController';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.focus.FocusControllerTest', function () {

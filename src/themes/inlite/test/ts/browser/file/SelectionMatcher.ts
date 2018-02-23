@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Matcher from 'tinymce/themes/inlite/core/Matcher';
-import Measure from 'tinymce/themes/inlite/core/Measure';
+import Matcher from 'tinymce/src/themes/inlite/main/ts/core/Matcher';
+import Measure from 'tinymce/src/themes/inlite/main/ts/core/Measure';
 
 // textSelection :: String -> (Editor -> Matcher.result | Null)
 const textSelection = function (id) {

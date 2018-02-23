@@ -4,7 +4,7 @@ import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import ListsPlugin from 'tinymce/plugins/lists/Plugin';
 import TablePlugin from 'tinymce/plugins/table/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('tinymce.plugins.table.IndentListsInTableTest', function () {
   const success = arguments[arguments.length - 2];

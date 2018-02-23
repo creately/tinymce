@@ -4,7 +4,7 @@ import { Arr, Fun } from '@ephox/katamari';
 
 import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
-import Menubar from 'tinymce/themes/modern/ui/Menubar';
+import Menubar from 'tinymce/src/themes/modern/main/ts/ui/Menubar';
 
 UnitTest.test('browser.tinymce.themes.modern.test.ui.MenubarTest', function () {
   const menuItems = [

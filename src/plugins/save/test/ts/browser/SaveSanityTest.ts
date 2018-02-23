@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyActions, TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import SavePlugin from 'tinymce/plugins/save/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.save.SaveSanityTest', function () {
   const success = arguments[arguments.length - 2];

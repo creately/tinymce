@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 
 import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
-import EditorSettings from 'tinymce/themes/inlite/alien/EditorSettings';
+import EditorSettings from 'tinymce/src/themes/inlite/main/ts/alien/EditorSettings';
 
 UnitTest.asynctest('browser.alien.EditorSettingsTest', function () {
   const success = arguments[arguments.length - 2];

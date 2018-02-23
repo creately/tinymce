@@ -1,4 +1,4 @@
-import PredicateId from 'tinymce/themes/inlite/core/PredicateId';
+import PredicateId from 'tinymce/src/themes/inlite/main/ts/core/PredicateId';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('browser.core.PredicateIdTest', function () {

@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyDom, TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import Plugin from 'tinymce/plugins/media/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import Utils from '../module/test/Utils';
 

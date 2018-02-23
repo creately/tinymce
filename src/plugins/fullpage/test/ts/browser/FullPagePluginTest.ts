@@ -4,7 +4,7 @@ import { Arr } from '@ephox/katamari';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
 import Plugin from 'tinymce/plugins/fullpage/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.fullpage.FullPagePluginTest', function () {
   const success = arguments[arguments.length - 2];

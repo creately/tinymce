@@ -1,7 +1,7 @@
 import { Pipeline, Step, Waiter } from '@ephox/agar';
 import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 import AchorPlugin from 'tinymce/plugins/anchor/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.plugins.anchor.AnchorSanityTest.js', function () {

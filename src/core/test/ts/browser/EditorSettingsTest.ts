@@ -2,7 +2,7 @@ import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyLoader } from '@ephox/mcagar';
 import { PlatformDetection } from '@ephox/sand';
 import * as EditorSettings from 'tinymce/src/core/main/ts/EditorSettings';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';

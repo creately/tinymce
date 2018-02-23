@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyDom } from '@ephox/mcagar';
 
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
-import Bookmark from 'tinymce/themes/inlite/alien/Bookmark';
+import Bookmark from 'tinymce/src/themes/inlite/main/ts/alien/Bookmark';
 
 UnitTest.asynctest('browser.alien.BookmarkTest', function () {
   const success = arguments[arguments.length - 2];

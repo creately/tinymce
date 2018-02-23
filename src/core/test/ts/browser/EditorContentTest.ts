@@ -1,6 +1,6 @@
 import { GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 import * as EditorContent from 'tinymce/src/core/main/ts/EditorContent';
 import Assertions from '@ephox/agar/lib/main/ts/ephox/agar/api/Assertions';

@@ -6,7 +6,7 @@ import { TinyApis, TinyDom, TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import ImagePlugin from 'tinymce/plugins/image/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.image.ImageListTest', function () {
   const success = arguments[arguments.length - 2];

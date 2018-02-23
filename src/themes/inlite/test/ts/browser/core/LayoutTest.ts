@@ -1,4 +1,4 @@
-import Layout from 'tinymce/themes/inlite/core/Layout';
+import Layout from 'tinymce/src/themes/inlite/main/ts/core/Layout';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('browser/core/LayoutTest', function () {

@@ -5,7 +5,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import TextpatternPlugin from 'tinymce/plugins/textpattern/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import Utils from '../module/test/Utils';
 

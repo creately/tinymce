@@ -3,8 +3,8 @@ import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Uint8Array, Window } from '@ephox/sand';
 
-import Actions from 'tinymce/themes/inlite/core/Actions';
-import Theme from 'tinymce/themes/inlite/Theme';
+import Actions from 'tinymce/src/themes/inlite/main/ts/core/Actions';
+import Theme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 UnitTest.asynctest('browser/core/ActionsTest', function () {
   const success = arguments[arguments.length - 2];

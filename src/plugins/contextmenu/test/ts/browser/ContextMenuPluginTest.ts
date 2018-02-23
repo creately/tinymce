@@ -4,7 +4,7 @@ import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 import { Element, Hierarchy } from '@ephox/sugar';
 
 import ContextMenuPlugin from 'tinymce/plugins/contextmenu/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.contextmenu.ContextMenuPluginTest', function () {
   const success = arguments[arguments.length - 2];

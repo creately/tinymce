@@ -4,7 +4,7 @@ import { Id, Merger, Obj } from '@ephox/katamari';
 
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import PastePlugin from 'tinymce/plugins/paste/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import MockDataTransfer from '../module/test/MockDataTransfer';
 import ViewBlock from '../module/test/ViewBlock';

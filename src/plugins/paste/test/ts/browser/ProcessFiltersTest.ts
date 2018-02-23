@@ -5,7 +5,7 @@ import { TinyLoader } from '@ephox/mcagar';
 
 import ProcessFilters from 'tinymce/plugins/paste/core/ProcessFilters';
 import PastePlugin from 'tinymce/plugins/paste/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('tinymce.plugins.paste.browser.ProcessFiltersTest', function () {
   const success = arguments[arguments.length - 2];

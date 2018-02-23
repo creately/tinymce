@@ -2,7 +2,7 @@ import { GeneralSteps, Logger, Pipeline, RawAssertions, Step } from '@ephox/agar
 import { Cell } from '@ephox/katamari';
 import { TinyApis, TinyLoader, TinyUi  } from '@ephox/mcagar';
 import TextcolorPlugin from 'tinymce/plugins/textcolor/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest(

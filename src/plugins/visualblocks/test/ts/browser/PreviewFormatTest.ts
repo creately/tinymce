@@ -4,7 +4,7 @@ import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Class, Css, Element } from '@ephox/sugar';
 
 import VisualBlocksPlugin from 'tinymce/plugins/visualblocks/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.visualblocks.PreviewFormatsTest', function () {
   const success = arguments[arguments.length - 2];

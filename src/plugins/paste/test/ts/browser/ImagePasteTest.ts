@@ -8,7 +8,7 @@ import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
 import { Clipboard } from 'tinymce/plugins/paste/api/Clipboard';
 import Plugin from 'tinymce/plugins/paste/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('tinymce.plugins.paste.browser.ImagePasteTest', function () {
   const success = arguments[arguments.length - 2];

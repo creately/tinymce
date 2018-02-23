@@ -5,7 +5,7 @@ import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.link.AllowUnsafeLinkTargetTest', function () {
   const success = arguments[arguments.length - 2];

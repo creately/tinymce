@@ -9,8 +9,8 @@ import { Fun } from '@ephox/katamari';
 import { PlatformDetection } from '@ephox/sand';
 import { Body, Class, Element, Focus, Traverse } from '@ephox/sugar';
 
-import IosRealm from 'tinymce/themes/mobile/ui/IosRealm';
-import LinkButton from 'tinymce/themes/mobile/ui/LinkButton';
+import IosRealm from 'tinymce/src/themes/mobile/main/ts/ui/IosRealm';
+import LinkButton from 'tinymce/src/themes/mobile/main/ts/ui/LinkButton';
 
 import GuiSetup from '../../module/test/GuiSetup';
 import TestEditor from '../../module/test/ui/TestEditor';

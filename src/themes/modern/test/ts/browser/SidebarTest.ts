@@ -2,7 +2,7 @@ import { Assertions, Chain, GeneralSteps, Mouse, Pipeline, Step, UiFinder } from
 import { UnitTest } from '@ephox/bedrock';
 import { TinyDom, TinyLoader } from '@ephox/mcagar';
 
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('tinymce.themes.modern.test.browser.SidebarTest', function () {
   const success = arguments[arguments.length - 2];

@@ -4,7 +4,7 @@ import { TinyApis, TinyDom, TinyLoader } from '@ephox/mcagar';
 
 import LinkPluginUtils from 'tinymce/plugins/link/core/Utils';
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.link.ImageFigureLinkTest', function () {
   const success = arguments[arguments.length - 2];

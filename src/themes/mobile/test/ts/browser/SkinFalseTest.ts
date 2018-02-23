@@ -1,6 +1,6 @@
 import { Pipeline } from '@ephox/agar';
 import { TinyLoader } from '@ephox/mcagar';
-import Theme from 'tinymce/themes/mobile/Theme';
+import Theme from 'tinymce/src/themes/mobile/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.themes.mobile.SkinFalseTest', function () {

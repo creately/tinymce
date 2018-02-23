@@ -5,7 +5,7 @@ import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import InternalHtml from 'tinymce/plugins/paste/core/InternalHtml';
 import Utils from 'tinymce/plugins/paste/core/Utils';
 import Plugin from 'tinymce/plugins/paste/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import MockDataTransfer from '../module/test/MockDataTransfer';
 

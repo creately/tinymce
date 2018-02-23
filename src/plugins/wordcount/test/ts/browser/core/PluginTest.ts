@@ -4,7 +4,7 @@ import { TinyApis, TinyDom, TinyLoader } from '@ephox/mcagar';
 
 import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import Plugin from 'tinymce/plugins/wordcount/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.wordcount.PluginTest', function () {
   const success = arguments[arguments.length - 2];

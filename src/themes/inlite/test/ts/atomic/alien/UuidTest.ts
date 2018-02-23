@@ -1,4 +1,4 @@
-import Uuid from 'tinymce/themes/inlite/alien/Uuid';
+import Uuid from 'tinymce/src/themes/inlite/main/ts/alien/Uuid';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('atomic.themes.alien.UuidTest', function () {

@@ -4,7 +4,7 @@ import { FieldSchema, Objects, ValueSchema } from '@ephox/boulder';
 import { Cell, Fun, Option } from '@ephox/katamari';
 import { Element } from '@ephox/sugar';
 
-import LinkBridge from 'tinymce/themes/mobile/bridge/LinkBridge';
+import LinkBridge from 'tinymce/src/themes/mobile/main/ts/bridge/LinkBridge';
 
 import TestStore from '../../module/test/TestStore';
 

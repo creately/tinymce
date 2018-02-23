@@ -1,6 +1,6 @@
 import AdvListPlugin from 'tinymce/plugins/advlist/Plugin';
 import ListsPlugin from 'tinymce/plugins/lists/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';

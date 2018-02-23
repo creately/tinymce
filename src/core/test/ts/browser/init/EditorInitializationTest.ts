@@ -6,7 +6,7 @@ import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import Env from 'tinymce/src/core/main/ts/api/Env';
 import ViewBlock from '../../module/test/ViewBlock';
 import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.init.EditorInitializationTest', function () {

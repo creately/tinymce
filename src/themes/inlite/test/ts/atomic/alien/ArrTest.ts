@@ -1,4 +1,4 @@
-import Arr from 'tinymce/themes/inlite/alien/Arr';
+import Arr from 'tinymce/src/themes/inlite/main/ts/alien/Arr';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('atomic.themes.alien.ArrTest', function () {

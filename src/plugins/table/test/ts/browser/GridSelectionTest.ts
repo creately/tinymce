@@ -4,7 +4,7 @@ import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
 import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Plugin from 'tinymce/plugins/table/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.table.GridSelectionTest', function () {
   const success = arguments[arguments.length - 2];

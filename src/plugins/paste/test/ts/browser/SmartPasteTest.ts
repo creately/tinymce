@@ -4,7 +4,7 @@ import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
 import SmartPaste from 'tinymce/plugins/paste/core/SmartPaste';
 import Plugin from 'tinymce/plugins/paste/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('tinymce.plugins.paste.browser.ImagePasteTest', function () {
   const success = arguments[arguments.length - 2];

@@ -4,7 +4,7 @@ import { TinyDom, TinyLoader, TinyUi } from '@ephox/mcagar';
 import { Html } from '@ephox/sugar';
 
 import HelpPlugin from 'tinymce/plugins/help/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import FakePlugin from '../module/test/FakePlugin';
 import NoMetaFakePlugin from '../module/test/NoMetaFakePlugin';

@@ -1,4 +1,4 @@
-import UrlType from 'tinymce/themes/inlite/core/UrlType';
+import UrlType from 'tinymce/src/themes/inlite/main/ts/core/UrlType';
 import { UnitTest, assert } from '@ephox/bedrock';
 
 UnitTest.test('atomic.themes.core.UrlTypeTest', function () {

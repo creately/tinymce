@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { UiChains, Editor } from '@ephox/mcagar';
 
 import Plugin from 'tinymce/plugins/media/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { Body } from '@ephox/sugar';
 
 const cNotExists = (selector) => {

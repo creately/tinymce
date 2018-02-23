@@ -2,8 +2,8 @@ import { Assertions, Pipeline, Step } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
-import Measure from 'tinymce/themes/inlite/core/Measure';
-import InliteTheme from 'tinymce/themes/inlite/Theme';
+import Measure from 'tinymce/src/themes/inlite/main/ts/core/Measure';
+import InliteTheme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 UnitTest.asynctest('browser/core/MeasureTest', function () {
   const success = arguments[arguments.length - 2];

@@ -4,7 +4,7 @@ import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
 import Env from 'tinymce/src/core/main/ts/api/Env';
 import PastePlugin from 'tinymce/plugins/paste/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 import Paste from '../module/test/Paste';
 

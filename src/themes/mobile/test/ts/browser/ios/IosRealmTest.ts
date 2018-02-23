@@ -5,7 +5,7 @@ import { Fun, Merger, Option } from '@ephox/katamari';
 import { PlatformDetection } from '@ephox/sand';
 import { Attr, Body, Css, DomEvent, Element, Insert, Remove, WindowSelection } from '@ephox/sugar';
 
-import IosRealm from 'tinymce/themes/mobile/ui/IosRealm';
+import IosRealm from 'tinymce/src/themes/mobile/main/ts/ui/IosRealm';
 
 import TestUi from '../../module/test/ui/TestUi';
 

@@ -2,7 +2,7 @@ import { Assertions, Pipeline, Step } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { Uint8Array, Window } from '@ephox/sand';
 
-import Conversions from 'tinymce/themes/inlite/file/Conversions';
+import Conversions from 'tinymce/src/themes/inlite/main/ts/file/Conversions';
 
 UnitTest.asynctest('atomic.core.ConvertTest', function () {
   const success = arguments[arguments.length - 2];

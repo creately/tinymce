@@ -5,7 +5,7 @@ import { Element } from '@ephox/sugar';
 
 import DataToHtml from 'tinymce/plugins/media/core/DataToHtml';
 import Plugin from 'tinymce/plugins/media/Plugin';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.core.DataToHtmlTest', function () {
   const success = arguments[arguments.length - 2];

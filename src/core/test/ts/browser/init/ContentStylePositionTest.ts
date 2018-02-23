@@ -2,7 +2,7 @@ import { Assertions, Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { TinyLoader } from '@ephox/mcagar';
 import { Element, Node } from '@ephox/sugar';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.init.ContentStylePositionTest', function () {

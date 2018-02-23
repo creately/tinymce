@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { ApiChains, Editor, TinyDom, UiChains } from '@ephox/mcagar';
 
 import ImagePlugin from 'tinymce/plugins/image/Plugin';
-import ModernTheme from 'tinymce/themes/modern/Theme';
+import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest('browser.tinymce.plugins.image.FigureResizeTest', function () {
   const success = arguments[arguments.length - 2];

@@ -4,7 +4,7 @@ import ScriptLoader from 'tinymce/src/core/main/ts/api/dom/ScriptLoader';
 import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import I18n from 'tinymce/src/core/main/ts/api/util/I18n';
-import Theme from 'tinymce/themes/modern/Theme';
+import Theme from 'tinymce/src/themes/modern/main/ts/Theme';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.EditorRtlTest', function () {
