@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import RangeUtils from 'src/core/main/ts/api/dom/RangeUtils';
-import TreeWalker from 'src/core/main/ts/api/dom/TreeWalker';
-import VK from 'src/core/main/ts/api/util/VK';
+import RangeUtils from 'tinymce/src/core/main/ts/api/dom/RangeUtils';
+import TreeWalker from 'tinymce/src/core/main/ts/api/dom/TreeWalker';
+import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import ToggleList from '../actions/ToggleList';
 import Bookmark from './Bookmark';
 import NodeType from './NodeType';

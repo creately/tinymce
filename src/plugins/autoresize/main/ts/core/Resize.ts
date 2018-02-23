@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'src/core/main/ts/api/Env';
-import Delay from 'src/core/main/ts/api/util/Delay';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import Settings from '../api/Settings';
 
 /**

@@ -10,7 +10,7 @@
 
 import Events from '../api/Events';
 import WordFilter from './WordFilter';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 const processResult = function (content, cancelled) {
   return { content, cancelled };

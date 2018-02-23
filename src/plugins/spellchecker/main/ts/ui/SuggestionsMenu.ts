@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import Factory from 'src/core/main/ts/api/ui/Factory';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Actions from '../core/Actions';
 
 let suggestionsMenu;

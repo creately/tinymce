@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'src/core/main/ts/api/Env';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import Settings from '../api/Settings';
 import IframeContent from './IframeContent';
 

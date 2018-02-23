@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DomQuery from 'src/core/main/ts/api/dom/DomQuery';
-import Env from 'src/core/main/ts/api/Env';
-import Delay from 'src/core/main/ts/api/util/Delay';
+import DomQuery from 'tinymce/src/core/main/ts/api/dom/DomQuery';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import BoxUtils from './BoxUtils';
 import DomUtils from './DomUtils';
 import DragHelper from './DragHelper';

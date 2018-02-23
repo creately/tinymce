@@ -1,9 +1,9 @@
 import { RawAssertions } from '@ephox/agar';
-import { Editor } from 'src/core/main/ts/api/Editor';
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import DomSerializer from 'src/core/main/ts/dom/DomSerializer';
-import TrimHtml from 'src/core/main/ts/dom/TrimHtml';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import DomSerializer from 'tinymce/src/core/main/ts/dom/DomSerializer';
+import TrimHtml from 'tinymce/src/core/main/ts/dom/TrimHtml';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.test('browser.tinymce.core.dom.TrimHtmlTest', function () {

@@ -1,12 +1,12 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import EventUtils from 'src/core/main/ts/api/dom/EventUtils';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import EventUtils from 'tinymce/src/core/main/ts/api/dom/EventUtils';
 import UiUtils from '../module/test/UiUtils';
 import ViewBlock from '../module/test/ViewBlock';
 import Api from 'tinymce/ui/Api';
-import Factory from 'src/core/main/ts/api/ui/Factory';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.ui.WindowTest', function () {

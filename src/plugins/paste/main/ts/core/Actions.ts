@@ -10,7 +10,7 @@
 
 import Events from '../api/Events';
 import Settings from '../api/Settings';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import { Clipboard } from '../api/Clipboard';
 
 const shouldInformUserAboutPlainText = function (editor: Editor, userIsInformedState) {

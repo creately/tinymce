@@ -9,8 +9,8 @@
  */
 
 import { XMLHttpRequest } from '@ephox/sand';
-import Promise from 'src/core/main/ts/api/util/Promise';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 /**
  * This is basically cut down version of tinymce.core.file.Uploader, which we could use directly

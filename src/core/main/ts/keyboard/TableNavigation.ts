@@ -13,9 +13,9 @@ import CaretPosition from '../caret/CaretPosition';
 import * as CefUtils from '../keyboard/CefUtils';
 import { Arr, Option } from '@ephox/katamari';
 import { PlatformDetection } from '@ephox/sand';
-import { getPositionsAbove, findClosestHorizontalPositionFromPoint, getPositionsBelow, getPositionsUntilPreviousLine, getPositionsUntilNextLine, BreakType } from 'src/core/main/ts/caret/LineReader';
-import { findClosestPositionInAboveCell, findClosestPositionInBelowCell } from 'src/core/main/ts/caret/TableCells';
-import Fun from 'src/core/main/ts/util/Fun';
+import { getPositionsAbove, findClosestHorizontalPositionFromPoint, getPositionsBelow, getPositionsUntilPreviousLine, getPositionsUntilNextLine, BreakType } from 'tinymce/src/core/main/ts/caret/LineReader';
+import { findClosestPositionInAboveCell, findClosestPositionInBelowCell } from 'tinymce/src/core/main/ts/caret/TableCells';
+import Fun from 'tinymce/src/core/main/ts/util/Fun';
 
 const browser = PlatformDetection.detect().browser;
 const isFakeCaretTableBrowser = () => browser.isIE() || browser.isEdge() || browser.isFirefox();

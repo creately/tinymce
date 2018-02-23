@@ -8,12 +8,12 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'src/core/main/ts/api/Env';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 import Utils from './Utils';
 import WordFilter from './WordFilter';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 /**
  * This class contains various fixes for browsers. These issues can not be feature

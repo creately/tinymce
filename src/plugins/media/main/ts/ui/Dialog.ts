@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'src/core/main/ts/api/Env';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 import HtmlToData from '../core/HtmlToData';
 import Service from '../core/Service';

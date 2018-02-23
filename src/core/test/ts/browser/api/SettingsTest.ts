@@ -1,7 +1,7 @@
 import { Assertions } from '@ephox/agar';
-import { Editor } from 'src/core/main/ts/api/Editor';
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import Settings from 'src/core/main/ts/api/Settings';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Settings from 'tinymce/src/core/main/ts/api/Settings';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.test('browser.tinymce.core.api.SettingsTest', function () {

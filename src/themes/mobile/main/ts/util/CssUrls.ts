@@ -1,5 +1,5 @@
 import { Objects } from '@ephox/boulder';
-import EditorManager from 'src/core/main/ts/api/EditorManager';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 
 const derive = function (editor) {
   const base = Objects.readOptFrom(editor.settings, 'skin_url').fold(function () {

@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 
 const getMinWidth = function (editor) {
   return editor.getParam('code_dialog_width', 600);

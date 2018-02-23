@@ -1,8 +1,8 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import * as CaretContainer from 'src/core/main/ts/caret/CaretContainer';
-import Env from 'src/core/main/ts/api/Env';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import * as CaretContainer from 'tinymce/src/core/main/ts/caret/CaretContainer';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

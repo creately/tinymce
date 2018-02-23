@@ -14,7 +14,7 @@ import { Attr, Html, SelectorFind, SelectorFilter, Css } from '@ephox/sugar';
 import { getDefaultAttributes, getDefaultStyles, isPixelsForced } from '../api/Settings';
 import { fireNewRow, fireNewCell } from '../api/Events';
 import Util from '../alien/Util';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 const placeCaretInCell = (editor: Editor, cell) => {
   editor.selection.select(cell.dom(), true);

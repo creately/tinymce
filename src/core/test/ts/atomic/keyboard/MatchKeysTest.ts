@@ -1,6 +1,6 @@
 import { Assertions, Logger, Pipeline, Step } from '@ephox/agar';
 import { Arr, Cell, Merger } from '@ephox/katamari';
-import MatchKeys from 'src/core/main/ts/keyboard/MatchKeys';
+import MatchKeys from 'tinymce/src/core/main/ts/keyboard/MatchKeys';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('atomic.tinymce.core.keyboard.MatchKeysTest', function () {

@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import I18n from 'src/core/main/ts/api/util/I18n';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import I18n from 'tinymce/src/core/main/ts/api/util/I18n';
 
 const getVersion = function (major, minor) {
   return major.indexOf('@') === 0 ? 'X.X.X' : major + '.' + minor;

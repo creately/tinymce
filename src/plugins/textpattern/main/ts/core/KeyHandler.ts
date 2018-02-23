@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import VK from 'src/core/main/ts/api/util/VK';
+import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import Formatter from './Formatter';
 
 function handleEnter(editor, patterns) {

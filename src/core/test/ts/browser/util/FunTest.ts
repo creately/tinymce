@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Fun from 'src/core/main/ts/util/Fun';
+import Fun from 'tinymce/src/core/main/ts/util/Fun';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.util.FunTest', function () {

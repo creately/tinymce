@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import FontInfo from '../fmt/FontInfo';
 
 const findMatchingValue = function (items, pt, px) {

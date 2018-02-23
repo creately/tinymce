@@ -10,7 +10,7 @@
 
 import { Fun, Option } from '@ephox/katamari';
 import { Element, Node } from '@ephox/sugar';
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 
 const getSpecifiedFontProp = (propName: string, rootElm: Element, elm: HTMLElement): Option<string> => {
   while (elm !== rootElm) {

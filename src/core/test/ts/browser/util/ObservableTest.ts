@@ -1,7 +1,7 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Observable from 'src/core/main/ts/api/util/Observable';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Observable from 'tinymce/src/core/main/ts/api/util/Observable';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.util.ObservableTest', function () {

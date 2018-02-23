@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import Env from 'src/core/main/ts/api/Env';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 /**
  * Private UI DomUtils proxy.

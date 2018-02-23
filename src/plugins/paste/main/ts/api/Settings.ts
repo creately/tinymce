@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 const shouldPlainTextInform = (editor: Editor): boolean => {
   return editor.getParam('paste_plaintext_inform', true);

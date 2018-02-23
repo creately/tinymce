@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import VK from 'src/core/main/ts/api/util/VK';
+import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import Settings from '../api/Settings';
 import Actions from './Actions';
 

@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 
 EditorManager._beforeUnloadHandler = function () {

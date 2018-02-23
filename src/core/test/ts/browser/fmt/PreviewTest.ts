@@ -1,7 +1,7 @@
 import { Assertions, Pipeline, Step, Waiter } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import Preview from 'src/core/main/ts/fmt/Preview';
+import Preview from 'tinymce/src/core/main/ts/fmt/Preview';
 import HtmlUtils from '../../module/test/HtmlUtils';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';

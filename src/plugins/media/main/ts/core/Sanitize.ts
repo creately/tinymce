@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import SaxParser from 'src/core/main/ts/api/html/SaxParser';
-import Schema from 'src/core/main/ts/api/html/Schema';
-import Writer from 'src/core/main/ts/api/html/Writer';
+import SaxParser from 'tinymce/src/core/main/ts/api/html/SaxParser';
+import Schema from 'tinymce/src/core/main/ts/api/html/Schema';
+import Writer from 'tinymce/src/core/main/ts/api/html/Writer';
 import Settings from '../api/Settings';
 
 const sanitize = function (editor, html) {

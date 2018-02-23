@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'src/core/main/ts/api/util/Tools';
-import Factory from 'src/core/main/ts/api/ui/Factory';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import Type from '../alien/Type';
 
 const getSelectorStateResult = function (itemName, item) {

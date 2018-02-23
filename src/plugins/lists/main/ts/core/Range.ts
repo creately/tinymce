@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import RangeUtils from 'src/core/main/ts/api/dom/RangeUtils';
+import RangeUtils from 'tinymce/src/core/main/ts/api/dom/RangeUtils';
 import NodeType from './NodeType';
 
 const getNormalizedEndPoint = function (container, offset) {

@@ -1,9 +1,9 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Hierarchy, Element } from '@ephox/sugar';
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import NormalizeRange from 'src/core/main/ts/selection/NormalizeRange';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import NormalizeRange from 'tinymce/src/core/main/ts/selection/NormalizeRange';
 import ViewBlock from '../../module/test/ViewBlock';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.selection.NormalizeRangeTest', function () {

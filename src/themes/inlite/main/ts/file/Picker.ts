@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Promise from 'src/core/main/ts/api/util/Promise';
+import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
 
 const pickFile = function () {
   return new Promise(function (resolve) {

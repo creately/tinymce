@@ -2,8 +2,8 @@ import { Pipeline } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
-import Promise from 'src/core/main/ts/api/util/Promise';
-import VK from 'src/core/main/ts/api/util/VK';
+import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
+import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
 import Theme from 'tinymce/themes/modern/Theme';
 import FilePicker from 'tinymce/ui/FilePicker';

@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import LocalStorage from 'src/core/main/ts/api/util/LocalStorage';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import LocalStorage from 'tinymce/src/core/main/ts/api/util/LocalStorage';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Events from '../api/Events';
 import Settings from '../api/Settings';
 

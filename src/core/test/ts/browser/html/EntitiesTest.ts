@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Entities from 'src/core/main/ts/api/html/Entities';
+import Entities from 'tinymce/src/core/main/ts/api/html/Entities';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.html.EntitiesTest', function () {

@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Delay from 'src/core/main/ts/api/util/Delay';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.util.DelayTest', function () {

@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 const isBrandingEnabled = (editor): boolean => editor.getParam('branding', true, 'boolean');
 const hasMenubar = (editor): boolean => getMenubar(editor) !== false;

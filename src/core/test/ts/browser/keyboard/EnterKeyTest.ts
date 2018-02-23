@@ -1,8 +1,8 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import Env from 'src/core/main/ts/api/Env';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import HtmlUtils from '../../module/test/HtmlUtils';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

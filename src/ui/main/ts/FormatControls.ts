@@ -1,8 +1,8 @@
 import { Fun } from '@ephox/katamari';
 import { Element, SelectorFind } from '@ephox/sugar';
 
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import Env from 'src/core/main/ts/api/Env';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 
 import Control from './Control';
 import Align from './editorui/Align';

@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Observable from 'src/core/main/ts/api/util/Observable';
-import Class from 'src/core/main/ts/api/util/Class';
+import Observable from 'tinymce/src/core/main/ts/api/util/Observable';
+import Class from 'tinymce/src/core/main/ts/api/util/Class';
 
 /**
  * This class is an array that emmits events when mutation occurs.

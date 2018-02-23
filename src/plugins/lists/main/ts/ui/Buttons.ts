@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import NodeType from '../core/NodeType';
 import Selection from '../core/Selection';
 

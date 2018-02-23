@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import NodePath from 'src/core/main/ts/dom/NodePath';
+import NodePath from 'tinymce/src/core/main/ts/dom/NodePath';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

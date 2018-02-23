@@ -1,8 +1,8 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import FocusManager from 'src/core/main/ts/api/FocusManager';
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import FocusController from 'src/core/main/ts/focus/FocusController';
+import FocusManager from 'tinymce/src/core/main/ts/api/FocusManager';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import FocusController from 'tinymce/src/core/main/ts/focus/FocusController';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

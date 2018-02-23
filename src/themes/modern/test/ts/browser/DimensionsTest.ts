@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { Id, Merger } from '@ephox/katamari';
 import { Element, Height, Width } from '@ephox/sugar';
 
-import EditorManager from 'src/core/main/ts/api/EditorManager';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import Theme from 'tinymce/themes/modern/Theme';
 
 import ViewBlock from '../module/test/ViewBlock';

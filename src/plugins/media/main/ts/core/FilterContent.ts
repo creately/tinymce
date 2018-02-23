@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Node from 'src/core/main/ts/api/html/Node';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Node from 'tinymce/src/core/main/ts/api/html/Node';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Nodes from './Nodes';
 import Sanitize from './Sanitize';
 

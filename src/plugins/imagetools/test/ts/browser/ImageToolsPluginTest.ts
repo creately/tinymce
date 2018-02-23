@@ -2,7 +2,7 @@ import { GeneralSteps, Pipeline, RawAssertions, Step, Logger } from '@ephox/agar
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
-import URI from 'src/core/main/ts/api/util/URI';
+import URI from 'tinymce/src/core/main/ts/api/util/URI';
 import Plugin from 'tinymce/plugins/imagetools/Plugin';
 import ModernTheme from 'tinymce/themes/modern/Theme';
 

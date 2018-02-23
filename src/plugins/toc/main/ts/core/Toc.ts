@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import I18n from 'src/core/main/ts/api/util/I18n';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import I18n from 'tinymce/src/core/main/ts/api/util/I18n';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 import Guid from './Guid';
 

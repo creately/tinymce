@@ -2,10 +2,10 @@ import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit } from '@ephox/mcagar';
 import { Element, Attr, SelectorFilter } from '@ephox/sugar';
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import Env from 'src/core/main/ts/api/Env';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import ViewBlock from '../../module/test/ViewBlock';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

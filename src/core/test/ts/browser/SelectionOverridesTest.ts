@@ -1,9 +1,9 @@
 import { Keyboard, Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyDom, TinyLoader } from '@ephox/mcagar';
-import Env from 'src/core/main/ts/api/Env';
-import * as CaretContainer from 'src/core/main/ts/caret/CaretContainer';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import * as CaretContainer from 'tinymce/src/core/main/ts/caret/CaretContainer';
 import KeyUtils from '../module/test/KeyUtils';
-import VK from 'src/core/main/ts/api/util/VK';
+import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

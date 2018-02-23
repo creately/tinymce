@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import PluginManager from 'src/core/main/ts/api/PluginManager';
+import PluginManager from 'tinymce/src/core/main/ts/api/PluginManager';
 import Api from './api/Api';
 import Commands from './api/Commands';
 import Buttons from './ui/Buttons';

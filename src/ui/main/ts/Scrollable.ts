@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import $ from 'src/core/main/ts/api/dom/DomQuery';
+import $ from 'tinymce/src/core/main/ts/api/dom/DomQuery';
 import DragHelper from './DragHelper';
 
 /**

@@ -9,7 +9,7 @@
  */
 
 import { Cell } from '@ephox/katamari';
-import PluginManager from 'src/core/main/ts/api/PluginManager';
+import PluginManager from 'tinymce/src/core/main/ts/api/PluginManager';
 import DetectProPlugin from './alien/DetectProPlugin';
 import Api from './api/Api';
 import Commands from './api/Commands';
@@ -19,7 +19,7 @@ import DragDrop from './core/DragDrop';
 import PrePostProcess from './core/PrePostProcess';
 import Quirks from './core/Quirks';
 import Buttons from './ui/Buttons';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 const userIsInformedState = Cell(false);
 

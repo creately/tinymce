@@ -9,7 +9,7 @@
  */
 
 import { Arr } from '@ephox/katamari';
-import I18n from 'src/core/main/ts/api/util/I18n';
+import I18n from 'tinymce/src/core/main/ts/api/util/I18n';
 import KeyboardShortcuts from '../data/KeyboardShortcuts';
 
 const makeTab = function () {

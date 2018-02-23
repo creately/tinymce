@@ -1,11 +1,11 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyLoader } from '@ephox/mcagar';
 import { PlatformDetection } from '@ephox/sand';
-import * as EditorSettings from 'src/core/main/ts/EditorSettings';
+import * as EditorSettings from 'tinymce/src/core/main/ts/EditorSettings';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
-import { Editor } from 'src/core/main/ts/api/Editor';
-import EditorManager from 'src/core/main/ts/api/EditorManager';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 
 UnitTest.asynctest('browser.tinymce.core.EditorSettingsTest', function () {
   const success = arguments[arguments.length - 2];

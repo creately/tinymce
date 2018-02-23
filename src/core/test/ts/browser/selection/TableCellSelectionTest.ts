@@ -1,7 +1,7 @@
 import { Assertions, Chain, Logger, Pipeline } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { Hierarchy, Element, Html } from '@ephox/sugar';
-import TableCellSelection from 'src/core/main/ts/selection/TableCellSelection';
+import TableCellSelection from 'tinymce/src/core/main/ts/selection/TableCellSelection';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

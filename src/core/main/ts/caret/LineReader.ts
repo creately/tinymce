@@ -10,11 +10,11 @@
 
 import { CaretPosition } from './CaretPosition';
 import { Arr, Fun, Option, Options } from '@ephox/katamari';
-import { HDirection, CaretWalker } from 'src/core/main/ts/caret/CaretWalker';
-import * as ClientRect from 'src/core/main/ts/geom/ClientRect';
-import CaretFinder from 'src/core/main/ts/caret/CaretFinder';
-import NodeType from 'src/core/main/ts/dom/NodeType';
-import { isInSameBlock } from 'src/core/main/ts/caret/CaretUtils';
+import { HDirection, CaretWalker } from 'tinymce/src/core/main/ts/caret/CaretWalker';
+import * as ClientRect from 'tinymce/src/core/main/ts/geom/ClientRect';
+import CaretFinder from 'tinymce/src/core/main/ts/caret/CaretFinder';
+import NodeType from 'tinymce/src/core/main/ts/dom/NodeType';
+import { isInSameBlock } from 'tinymce/src/core/main/ts/caret/CaretUtils';
 
 export enum BreakType {
   Br,

@@ -10,7 +10,7 @@
 
 import Container from './Container';
 import FormItem from './FormItem';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 /**
  * This class creates a form container. A form container has the ability

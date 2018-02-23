@@ -24,9 +24,9 @@ import SelectionBookmark from '../../selection/SelectionBookmark';
 import SetSelectionContent from '../../selection/SetSelectionContent';
 import Tools from '../util/Tools';
 import * as ElementSelection from '../../selection/ElementSelection';
-import { moveEndPoint } from 'src/core/main/ts/selection/SelectionUtils';
+import { moveEndPoint } from 'tinymce/src/core/main/ts/selection/SelectionUtils';
 import { NativeSelection } from './NativeTypes';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 /**
  * This class handles text and control selection it's an crossbrowser utility class.

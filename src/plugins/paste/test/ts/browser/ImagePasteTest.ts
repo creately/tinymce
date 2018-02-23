@@ -4,8 +4,8 @@ import { Arr } from '@ephox/katamari';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 import { Blob, Uint8Array, Window } from '@ephox/sand';
 
-import Delay from 'src/core/main/ts/api/util/Delay';
-import Promise from 'src/core/main/ts/api/util/Promise';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
+import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
 import { Clipboard } from 'tinymce/plugins/paste/api/Clipboard';
 import Plugin from 'tinymce/plugins/paste/Plugin';
 import Theme from 'tinymce/themes/modern/Theme';

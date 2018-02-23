@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-// import tinymce from 'src/core/main/ts/api/Tinymce';
+// import tinymce from 'tinymce/src/core/main/ts/api/Tinymce';
 
 declare const tinymce: any;
 

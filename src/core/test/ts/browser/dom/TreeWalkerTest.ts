@@ -1,6 +1,6 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
-import TreeWalker from 'src/core/main/ts/api/dom/TreeWalker';
+import TreeWalker from 'tinymce/src/core/main/ts/api/dom/TreeWalker';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

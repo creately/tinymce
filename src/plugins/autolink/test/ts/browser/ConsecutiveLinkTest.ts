@@ -1,6 +1,6 @@
 import { GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
-import Env from 'src/core/main/ts/api/Env';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import AutolinkPlugin from 'tinymce/plugins/autolink/Plugin';
 import KeyUtils from '../module/test/KeyUtils';
 import ModernTheme from 'tinymce/themes/modern/Theme';

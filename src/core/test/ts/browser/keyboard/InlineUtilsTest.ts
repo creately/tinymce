@@ -1,8 +1,8 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Hierarchy, Element } from '@ephox/sugar';
-import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
-import InlineUtils from 'src/core/main/ts/keyboard/InlineUtils';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import CaretPosition from 'tinymce/src/core/main/ts/caret/CaretPosition';
+import InlineUtils from 'tinymce/src/core/main/ts/keyboard/InlineUtils';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.keyboard.InlineUtilsTest', function () {

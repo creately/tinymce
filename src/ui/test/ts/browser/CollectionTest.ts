@@ -1,10 +1,10 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
-import EventUtils from 'src/core/main/ts/api/dom/EventUtils';
+import EventUtils from 'tinymce/src/core/main/ts/api/dom/EventUtils';
 import ViewBlock from '../module/test/ViewBlock';
 import Api from 'tinymce/ui/Api';
 import Collection from 'tinymce/ui/Collection';
-import Factory from 'src/core/main/ts/api/ui/Factory';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.ui.ButtonTest', function () {

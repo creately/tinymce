@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
-import I18n from 'src/core/main/ts/api/util/I18n';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import I18n from 'tinymce/src/core/main/ts/api/util/I18n';
 import TextColor from '../core/TextColor';
 
 const getHtml = function (cols, rows, colorMap, hasColorPicker) {

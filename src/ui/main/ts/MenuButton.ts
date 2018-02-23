@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Factory from 'src/core/main/ts/api/ui/Factory';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
 import Button from './Button';
 import MenuBar from './MenuBar';
 

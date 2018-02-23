@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DomQuery from 'src/core/main/ts/api/dom/DomQuery';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import DomQuery from 'tinymce/src/core/main/ts/api/dom/DomQuery';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import NodeType from './NodeType';
 
 const getParentList = function (editor) {

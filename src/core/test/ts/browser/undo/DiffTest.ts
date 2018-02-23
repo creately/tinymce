@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Diff from 'src/core/main/ts/undo/Diff';
+import Diff from 'tinymce/src/core/main/ts/undo/Diff';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.undo.DiffTest', function () {

@@ -1,6 +1,6 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import Hooks from 'src/core/main/ts/fmt/Hooks';
+import Hooks from 'tinymce/src/core/main/ts/fmt/Hooks';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'src/core/main/ts/api/util/Tools';
-import Factory from 'src/core/main/ts/api/ui/Factory';
-import Promise from 'src/core/main/ts/api/util/Promise';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
+import Promise from 'tinymce/src/core/main/ts/api/util/Promise';
 import Actions from '../core/Actions';
 import UrlType from '../core/UrlType';
 

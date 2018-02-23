@@ -1,4 +1,4 @@
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import { Arr } from '@ephox/katamari';
 
 const indentElement = (dom, command: string, useMargin: boolean, value: number, unit: string, element: HTMLElement) => {

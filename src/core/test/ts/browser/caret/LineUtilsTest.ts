@@ -1,7 +1,7 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Env from 'src/core/main/ts/api/Env';
-import * as LineUtils from 'src/core/main/ts/caret/LineUtils';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import * as LineUtils from 'tinymce/src/core/main/ts/caret/LineUtils';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.LineUtilsTest', function () {

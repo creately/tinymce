@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Selector from './Selector';
-import Class from 'src/core/main/ts/api/util/Class';
+import Class from 'tinymce/src/core/main/ts/api/util/Class';
 
 /**
  * Control collection, this class contains control instances and it enables you to

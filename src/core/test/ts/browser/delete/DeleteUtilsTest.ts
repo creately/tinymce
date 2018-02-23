@@ -1,7 +1,7 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline } from '@ephox/agar';
 import { Hierarchy, Element } from '@ephox/sugar';
-import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
-import DeleteUtils from 'src/core/main/ts/delete/DeleteUtils';
+import CaretPosition from 'tinymce/src/core/main/ts/caret/CaretPosition';
+import DeleteUtils from 'tinymce/src/core/main/ts/delete/DeleteUtils';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

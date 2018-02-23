@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Class from 'src/core/main/ts/api/util/Class';
+import Class from 'tinymce/src/core/main/ts/api/util/Class';
 
 /*eslint no-nested-ternary:0 */
 

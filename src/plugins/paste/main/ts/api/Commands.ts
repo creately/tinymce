@@ -9,7 +9,7 @@
  */
 
 import Actions from '../core/Actions';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import { Clipboard } from '../api/Clipboard';
 
 const register = function (editor: Editor, clipboard: Clipboard, userIsInformedState) {

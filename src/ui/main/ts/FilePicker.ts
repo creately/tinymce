@@ -1,7 +1,7 @@
 import { Arr, Fun } from '@ephox/katamari';
 
-import EditorManager from 'src/core/main/ts/api/EditorManager';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 import ComboBox from './ComboBox';
 import LinkTargets from './content/LinkTargets';

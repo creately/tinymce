@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
 
-import Env from 'src/core/main/ts/api/Env';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import Utils from 'tinymce/plugins/paste/core/Utils';
 import Plugin from 'tinymce/plugins/paste/Plugin';
 import Theme from 'tinymce/themes/modern/Theme';

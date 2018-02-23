@@ -8,10 +8,10 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'src/core/main/ts/api/Env';
-import Delay from 'src/core/main/ts/api/util/Delay';
-import Tools from 'src/core/main/ts/api/util/Tools';
-import VK from 'src/core/main/ts/api/util/VK';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import VK from 'tinymce/src/core/main/ts/api/util/VK';
 import Events from '../api/Events';
 import InternalHtml from './InternalHtml';
 import Newlines from './Newlines';
@@ -19,7 +19,7 @@ import { PasteBin } from './PasteBin';
 import ProcessFilters from './ProcessFilters';
 import SmartPaste from './SmartPaste';
 import Utils from './Utils';
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 declare let window: any;
 

@@ -1,9 +1,9 @@
 import { ApproxStructure, Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Element } from '@ephox/sugar';
-import CaretFormat from 'src/core/main/ts/fmt/CaretFormat';
+import CaretFormat from 'tinymce/src/core/main/ts/fmt/CaretFormat';
 import TypeText from '../../module/test/TypeText';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import ModernTheme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

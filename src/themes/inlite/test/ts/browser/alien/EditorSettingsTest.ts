@@ -1,8 +1,8 @@
 import { Assertions, Pipeline, Step } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 
-import { Editor } from 'src/core/main/ts/api/Editor';
-import EditorManager from 'src/core/main/ts/api/EditorManager';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
 import EditorSettings from 'tinymce/themes/inlite/alien/EditorSettings';
 
 UnitTest.asynctest('browser.alien.EditorSettingsTest', function () {

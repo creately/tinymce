@@ -1,7 +1,7 @@
 import { Assertions, Chain, GeneralSteps, Step, UiControls, UiFinder, Waiter } from '@ephox/agar';
 import { TinyDom } from '@ephox/mcagar';
 
-import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 
 const sOpenDialog = function (ui) {
   return GeneralSteps.sequence([

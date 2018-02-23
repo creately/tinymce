@@ -16,7 +16,7 @@ import InsertBr from '../newline/InsertBr';
 import SelectionBookmark from '../selection/SelectionBookmark';
 import Tools from './util/Tools';
 import { Selection } from './dom/Selection';
-import * as IndentOutdent from 'src/core/main/ts/commands/IndentOutdent';
+import * as IndentOutdent from 'tinymce/src/core/main/ts/commands/IndentOutdent';
 
 /**
  * This class enables you to add custom editor commands and it contains

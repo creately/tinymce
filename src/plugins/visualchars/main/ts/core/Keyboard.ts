@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Delay from 'src/core/main/ts/api/util/Delay';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import VisualChars from './VisualChars';
 
 const setup = function (editor, toggleState) {

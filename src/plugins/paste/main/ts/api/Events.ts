@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import { Editor } from 'src/core/main/ts/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 const firePastePreProcess = function (editor: Editor, html: string, internal: boolean, isWordHtml: boolean) {
   return editor.fire('PastePreProcess', { content: html, internal, wordContent: isWordHtml });

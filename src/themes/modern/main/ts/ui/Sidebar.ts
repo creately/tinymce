@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'src/core/main/ts/api/Env';
-import Factory from 'src/core/main/ts/api/ui/Factory';
-import Tools from 'src/core/main/ts/api/util/Tools';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Factory from 'tinymce/src/core/main/ts/api/ui/Factory';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Events from '../api/Events';
 
 const api = function (elm) {

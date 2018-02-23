@@ -1,8 +1,8 @@
 import { Assertions, GeneralSteps, Keys, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 import { PlatformDetection } from '@ephox/sand';
-import WordSelection from 'src/core/main/ts/selection/WordSelection';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import WordSelection from 'tinymce/src/core/main/ts/selection/WordSelection';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

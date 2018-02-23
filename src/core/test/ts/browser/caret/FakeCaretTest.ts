@@ -1,14 +1,14 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Env from 'src/core/main/ts/api/Env';
-import { FakeCaret, isFakeCaretTarget } from 'src/core/main/ts/caret/FakeCaret';
-import $ from 'src/core/main/ts/api/dom/DomQuery';
-import Zwsp from 'src/core/main/ts/text/Zwsp';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import { FakeCaret, isFakeCaretTarget } from 'tinymce/src/core/main/ts/caret/FakeCaret';
+import $ from 'tinymce/src/core/main/ts/api/dom/DomQuery';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import CaretAsserts from '../../module/test/CaretAsserts';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 import { Element } from '@ephox/sugar';
-import { isFakeCaretTableBrowser } from 'src/core/main/ts/keyboard/TableNavigation';
+import { isFakeCaretTableBrowser } from 'tinymce/src/core/main/ts/keyboard/TableNavigation';
 
 UnitTest.asynctest('browser.tinymce.core.caret.FakeCaretTest', function () {
   const success = arguments[arguments.length - 2];
