@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import PluginManager from 'tinymce/core/api/PluginManager';
+import PluginManager from 'src/core/main/ts/api/PluginManager';
 import Keys from './core/Keys';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'src/core/main/ts/api/Editor';
 
 PluginManager.add('autolink', function (editor: Editor) {
   Keys.setup(editor);

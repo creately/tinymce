@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import Tools from 'tinymce/core/api/util/Tools';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 
 const displayErrorMessage = function (editor, message) {

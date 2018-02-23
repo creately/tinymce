@@ -9,7 +9,7 @@
  */
 
 import Widget from './Widget';
-import Delay from 'tinymce/core/api/util/Delay';
+import Delay from 'src/core/main/ts/api/util/Delay';
 
 /*jshint scripturl:true */
 

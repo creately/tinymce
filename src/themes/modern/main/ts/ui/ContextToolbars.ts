@@ -8,11 +8,11 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import Rect from 'tinymce/core/api/geom/Rect';
-import Factory from 'tinymce/core/api/ui/Factory';
-import Delay from 'tinymce/core/api/util/Delay';
-import Tools from 'tinymce/core/api/util/Tools';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
+import Rect from 'src/core/main/ts/api/geom/Rect';
+import Factory from 'src/core/main/ts/api/ui/Factory';
+import Delay from 'src/core/main/ts/api/util/Delay';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import UiContainer from 'tinymce/ui/UiContainer';
 import * as Settings from '../api/Settings';
 import Toolbar from './Toolbar';

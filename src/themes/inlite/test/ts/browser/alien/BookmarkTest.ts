@@ -2,7 +2,7 @@ import { Assertions, Chain, Cursors, Pipeline } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { TinyDom } from '@ephox/mcagar';
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 import Bookmark from 'tinymce/themes/inlite/alien/Bookmark';
 
 UnitTest.asynctest('browser.alien.BookmarkTest', function () {

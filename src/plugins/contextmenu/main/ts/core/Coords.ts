@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 import { getUiContainer } from 'tinymce/plugins/contextmenu/core/UiContainer';
 
 const nu = function (x, y) {

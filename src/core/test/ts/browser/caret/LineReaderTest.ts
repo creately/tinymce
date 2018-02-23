@@ -1,7 +1,7 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline } from '@ephox/agar';
 import { Hierarchy, Element } from '@ephox/sugar';
-import { CaretPosition } from 'tinymce/core/caret/CaretPosition';
-import { getPositionsUntilPreviousLine, LineInfo, getPositionsUntilNextLine, getPositionsAbove, getPositionsBelow, isAtFirstLine, isAtLastLine, findClosestHorizontalPosition, BreakType } from 'tinymce/core/caret/LineReader';
+import { CaretPosition } from 'src/core/main/ts/caret/CaretPosition';
+import { getPositionsUntilPreviousLine, LineInfo, getPositionsUntilNextLine, getPositionsAbove, getPositionsBelow, isAtFirstLine, isAtLastLine, findClosestHorizontalPosition, BreakType } from 'src/core/main/ts/caret/LineReader';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 import { Arr, Fun } from '@ephox/katamari';

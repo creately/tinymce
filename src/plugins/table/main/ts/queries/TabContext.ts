@@ -14,7 +14,7 @@ import {
     Compare, CursorPosition, Element, Node, Selection, SelectorFilter, SelectorFind, WindowSelection
 } from '@ephox/sugar';
 
-import VK from 'tinymce/core/api/util/VK';
+import VK from 'src/core/main/ts/api/util/VK';
 
 import Util from '../alien/Util';
 import TableTargets from './TableTargets';

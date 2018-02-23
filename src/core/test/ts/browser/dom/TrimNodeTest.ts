@@ -1,6 +1,6 @@
 import { Pipeline, RawAssertions, Step } from '@ephox/agar';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import TrimNode from 'tinymce/core/dom/TrimNode';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
+import TrimNode from 'src/core/main/ts/dom/TrimNode';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.dom.TrimNodeTest', function () {

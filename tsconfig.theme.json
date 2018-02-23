@@ -10,7 +10,7 @@
     "baseUrl": ".",
     "paths": {
       "tinymce": ["src/core/dist/tinymce"],
-      "tinymce/core/*": ["lib/globals/tinymce/core/*"],
+      "src/core/main/ts/*": ["lib/globals/src/core/main/ts/*"],
       "tinymce/ui/*": ["src/ui/main/ts/*"],
       "tinymce/themes/mobile/*": ["src/themes/mobile/main/ts/*"],
       "tinymce/themes/modern/*": ["src/themes/modern/main/ts/*"],
@@ -71,7 +71,7 @@
     "src/themes/*/main/ts",
     "src/themes/*/src/demo/ts",
     "src/themes/*/src/test/ts",
-    "src/core/dist/globals/tinymce/core/",
+    "src/core/dist/globals/src/core/main/ts/",
     "src/core/dist/globals/**/*.ts",
     "node_modules/@ephox/**/*/api/Main.d.ts"
   ]

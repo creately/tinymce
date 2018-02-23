@@ -1,5 +1,5 @@
 import { Assertions, Pipeline, Step } from '@ephox/agar';
-import * as Bidi from 'tinymce/core/text/Bidi';
+import * as Bidi from 'src/core/main/ts/text/Bidi';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('atomic.tinymce.core.text.BidiTest', function () {

@@ -1,7 +1,7 @@
 import { Assertions, Chain, Logger, Pipeline, RawAssertions } from '@ephox/agar';
 import { Fun } from '@ephox/katamari';
 import { Hierarchy, Remove, Element, Traverse, Selection, WindowSelection } from '@ephox/sugar';
-import SelectionBookmark from 'tinymce/core/selection/SelectionBookmark';
+import SelectionBookmark from 'src/core/main/ts/selection/SelectionBookmark';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

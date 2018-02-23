@@ -10,7 +10,7 @@
 
 import NodeType from '../dom/NodeType';
 import Zwsp from '../text/Zwsp';
-import { CaretPosition } from 'tinymce/core/caret/CaretPosition';
+import { CaretPosition } from 'src/core/main/ts/caret/CaretPosition';
 
 /**
  * This module handles caret containers. A caret container is a node that

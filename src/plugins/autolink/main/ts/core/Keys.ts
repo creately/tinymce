@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Env from 'tinymce/core/api/Env';
+import Env from 'src/core/main/ts/api/Env';
 import Settings from '../api/Settings';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'src/core/main/ts/api/Editor';
 
 const rangeEqualsDelimiterOrSpace = function (rangeString, delimiter) {
   return rangeString === delimiter || rangeString === ' ' || rangeString.charCodeAt(0) === 160;

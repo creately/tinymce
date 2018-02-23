@@ -1,6 +1,6 @@
 import { ApproxStructure, Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
-import BlockRangeDelete from 'tinymce/core/delete/BlockRangeDelete';
+import BlockRangeDelete from 'src/core/main/ts/delete/BlockRangeDelete';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

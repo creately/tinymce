@@ -1,6 +1,6 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
-import JSONRequest from 'tinymce/core/api/util/JSONRequest';
+import JSONRequest from 'src/core/main/ts/api/util/JSONRequest';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.util.JsonRequestTest', function () {

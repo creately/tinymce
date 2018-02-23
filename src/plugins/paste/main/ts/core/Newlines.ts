@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'tinymce/core/api/util/Tools';
-import Entities from 'tinymce/core/api/html/Entities';
+import Tools from 'src/core/main/ts/api/util/Tools';
+import Entities from 'src/core/main/ts/api/html/Entities';
 
 export interface RootAttrs {[key: string]: string; }
 

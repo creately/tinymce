@@ -1,6 +1,6 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step, Waiter } from '@ephox/agar';
 import { Hierarchy, Element } from '@ephox/sugar';
-import EditorManager from 'tinymce/core/api/EditorManager';
+import EditorManager from 'src/core/main/ts/api/EditorManager';
 import ViewBlock from '../../module/test/ViewBlock';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';

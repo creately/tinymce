@@ -1,10 +1,10 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Fun } from '@ephox/katamari';
 import { Hierarchy, Element, SelectorFind, Selectors } from '@ephox/sugar';
-import CaretPosition from 'tinymce/core/caret/CaretPosition';
-import BoundaryLocation from 'tinymce/core/keyboard/BoundaryLocation';
+import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
+import BoundaryLocation from 'src/core/main/ts/keyboard/BoundaryLocation';
 import ViewBlock from '../../module/test/ViewBlock';
-import Zwsp from 'tinymce/core/text/Zwsp';
+import Zwsp from 'src/core/main/ts/text/Zwsp';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.keyboard.BoundaryLocationTest', function () {

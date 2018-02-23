@@ -9,9 +9,9 @@
  */
 
 import Button from './Button';
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import DomUtils from './DomUtils';
-import $ from 'tinymce/core/api/dom/DomQuery';
+import $ from 'src/core/main/ts/api/dom/DomQuery';
 
 /**
  * Creates a new browse button.

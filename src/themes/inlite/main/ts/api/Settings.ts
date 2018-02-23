@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import EditorManager from 'tinymce/core/api/EditorManager';
+import EditorManager from 'src/core/main/ts/api/EditorManager';
 import EditorSettings from '../alien/EditorSettings';
 import Layout from '../core/Layout';
 

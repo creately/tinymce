@@ -1,6 +1,6 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Element } from '@ephox/sugar';
-import Empty from 'tinymce/core/dom/Empty';
+import Empty from 'src/core/main/ts/dom/Empty';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.dom.EmptyTest', function () {

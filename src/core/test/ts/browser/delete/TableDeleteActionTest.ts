@@ -1,7 +1,7 @@
 import { Assertions, Chain, Logger, Pipeline } from '@ephox/agar';
 import { Arr, Fun, Result } from '@ephox/katamari';
 import { Hierarchy,  Element,  Html } from '@ephox/sugar';
-import TableDeleteAction from 'tinymce/core/delete/TableDeleteAction';
+import TableDeleteAction from 'src/core/main/ts/delete/TableDeleteAction';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.delete.TableDeleteActionTest', function () {

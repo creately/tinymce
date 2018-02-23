@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Delay from 'tinymce/core/api/util/Delay';
-import VK from 'tinymce/core/api/util/VK';
+import Delay from 'src/core/main/ts/api/util/Delay';
+import VK from 'src/core/main/ts/api/util/VK';
 import KeyHandler from './KeyHandler';
 
 const setup = function (editor, patternsState) {

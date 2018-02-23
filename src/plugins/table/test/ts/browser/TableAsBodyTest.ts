@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { Id, Merger } from '@ephox/katamari';
 import { Attr, Element, Insert, Remove, Selectors, Traverse } from '@ephox/sugar';
 
-import EditorManager from 'tinymce/core/api/EditorManager';
+import EditorManager from 'src/core/main/ts/api/EditorManager';
 import Plugin from 'tinymce/plugins/table/Plugin';
 
 UnitTest.asynctest('browser.tinymce.plugins.table.TableAsBodyTest', function () {

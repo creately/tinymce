@@ -2,7 +2,7 @@ import { Assertions, Chain, Logger, Pipeline } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { Merger } from '@ephox/katamari';
 
-import EditorManager from 'tinymce/core/api/EditorManager';
+import EditorManager from 'src/core/main/ts/api/EditorManager';
 import Plugin from 'tinymce/plugins/paste/Plugin';
 import Theme from 'tinymce/themes/modern/Theme';
 

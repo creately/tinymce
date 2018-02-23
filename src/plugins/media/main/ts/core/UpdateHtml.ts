@@ -8,10 +8,10 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Writer from 'tinymce/core/api/html/Writer';
-import SaxParser from 'tinymce/core/api/html/SaxParser';
-import Schema from 'tinymce/core/api/html/Schema';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import Writer from 'src/core/main/ts/api/html/Writer';
+import SaxParser from 'src/core/main/ts/api/html/SaxParser';
+import Schema from 'src/core/main/ts/api/html/Schema';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 import Size from './Size';
 
 const DOM = DOMUtils.DOM;

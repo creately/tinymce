@@ -11,9 +11,9 @@
     "baseUrl": ".",
     "paths": {
       "tinymce": ["src/core/main/ts/api/Main"],
-      "tinymce/core/*": ["src/core/main/ts/*"],
+      "src/core/main/ts/*": ["src/core/main/ts/*"],
       "tinymce/ui/*": ["src/ui/main/ts/*"],
-      "tinymce/core/test/*": ["src/core/src/test/ts/module/test/*"],
+      "src/core/main/ts/test/*": ["src/core/src/test/ts/module/test/*"],
       "tinymce/themes/mobile/*": ["src/themes/mobile/main/ts/*"],
       "tinymce/themes/modern/*": ["src/themes/modern/main/ts/*"],
       "tinymce/themes/inlite/*": ["src/themes/inlite/main/ts/*"],
@@ -76,7 +76,7 @@
     "src/themes/*/main/ts",
     "src/themes/*/demo/ts",
     "src/themes/*/test/ts",
-    "src/core/dist/globals/tinymce/core/",
+    "src/core/dist/globals/src/core/main/ts/",
     "src/core/dist/globals/**/*.ts",
     "node_modules/@ephox/**/*/api/Main.d.ts"
   ]

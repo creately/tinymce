@@ -9,8 +9,8 @@
  */
 
 import { Fun } from '@ephox/katamari';
-import Env from 'tinymce/core/api/Env';
-import Tools from 'tinymce/core/api/util/Tools';
+import Env from 'src/core/main/ts/api/Env';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import InsertTable from '../actions/InsertTable';
 import Styles from '../actions/Styles';
 import Util from '../alien/Util';

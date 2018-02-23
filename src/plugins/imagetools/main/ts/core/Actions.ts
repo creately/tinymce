@@ -12,10 +12,10 @@ import { BlobConversions, ImageTransformations, ResultConversions } from '@ephox
 import { Fun } from '@ephox/katamari';
 import { URL } from '@ephox/sand';
 
-import Delay from 'tinymce/core/api/util/Delay';
-import Promise from 'tinymce/core/api/util/Promise';
-import Tools from 'tinymce/core/api/util/Tools';
-import URI from 'tinymce/core/api/util/URI';
+import Delay from 'src/core/main/ts/api/util/Delay';
+import Promise from 'src/core/main/ts/api/util/Promise';
+import Tools from 'src/core/main/ts/api/util/Tools';
+import URI from 'src/core/main/ts/api/util/URI';
 
 import Settings from '../api/Settings';
 import Dialog from '../ui/Dialog';

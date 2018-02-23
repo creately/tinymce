@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import PluginManager from 'tinymce/core/api/PluginManager';
+import PluginManager from 'src/core/main/ts/api/PluginManager';
 import Keyboard from './core/Keyboard';
 
 PluginManager.add('tabfocus', function (editor) {

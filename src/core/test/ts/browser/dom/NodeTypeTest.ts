@@ -1,7 +1,7 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import NodeType from 'tinymce/core/dom/NodeType';
-import $ from 'tinymce/core/api/dom/DomQuery';
+import NodeType from 'src/core/main/ts/dom/NodeType';
+import $ from 'src/core/main/ts/api/dom/DomQuery';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.dom.NodeTypeTest', function () {

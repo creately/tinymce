@@ -10,8 +10,8 @@
 
 import { Element, SelectorFilter } from '@ephox/sugar';
 import { Arr, Fun, Option } from '@ephox/katamari';
-import { findClosestHorizontalPosition, getLastLinePositions, getFirstLinePositions } from 'tinymce/core/caret/LineReader';
-import { CaretPosition } from 'tinymce/core/caret/CaretPosition';
+import { findClosestHorizontalPosition, getLastLinePositions, getFirstLinePositions } from 'src/core/main/ts/caret/LineReader';
+import { CaretPosition } from 'src/core/main/ts/caret/CaretPosition';
 
 type GetAxisValue = (rect: ClientRect) => number;
 type IsTargetCorner = (corner: Corner, y: number) => boolean;

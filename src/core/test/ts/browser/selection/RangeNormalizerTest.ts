@@ -1,6 +1,6 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Hierarchy, Element } from '@ephox/sugar';
-import RangeNormalizer from 'tinymce/core/selection/RangeNormalizer';
+import RangeNormalizer from 'src/core/main/ts/selection/RangeNormalizer';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 
