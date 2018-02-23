@@ -9,7 +9,7 @@ import ImagePlugin from 'tinymce/plugins/image/Plugin';
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
 import PastePlugin from 'tinymce/plugins/paste/Plugin';
 import TablePlugin from 'tinymce/plugins/table/Plugin';
-import TextpatternPlugin from 'tinymce/plugins/textpattern/Plugin';
+import TextpatternPlugin from 'tinymce/src/plugins/textpattern/main/ts/Plugin';
 import Theme from 'tinymce/src/themes/inlite/main/ts/Theme';
 
 import Toolbar from '../module/test/Toolbar';

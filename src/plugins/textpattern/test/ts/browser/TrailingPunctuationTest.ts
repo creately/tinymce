@@ -2,7 +2,7 @@ import { ApproxStructure, GeneralSteps, Logger, Pipeline, Step, Waiter } from '@
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 
-import TextpatternPlugin from 'tinymce/plugins/textpattern/Plugin';
+import TextpatternPlugin from 'tinymce/src/plugins/textpattern/main/ts/Plugin';
 import ModernTheme from 'tinymce/src/themes/modern/main/ts/Theme';
 
 UnitTest.asynctest(
