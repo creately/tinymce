@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'src/core/main/ts/api/Editor';
 import InsertTable from '../actions/InsertTable';
 import { Arr, Option } from '@ephox/katamari';
 import { Element } from '@ephox/sugar';

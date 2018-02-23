@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Promise from 'tinymce/core/api/util/Promise';
+import Promise from 'src/core/main/ts/api/util/Promise';
 import Errors from './Errors';
 import Utils from './Utils';
 

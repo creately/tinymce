@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 import Events from '../api/Events';
 import Settings from '../api/Settings';
 

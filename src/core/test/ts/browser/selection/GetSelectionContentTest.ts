@@ -1,6 +1,6 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
-import GetSelectionContent from 'tinymce/core/selection/GetSelectionContent';
+import GetSelectionContent from 'src/core/main/ts/selection/GetSelectionContent';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

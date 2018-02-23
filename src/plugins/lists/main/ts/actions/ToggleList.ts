@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import BookmarkManager from 'tinymce/core/api/dom/BookmarkManager';
-import Tools from 'tinymce/core/api/util/Tools';
+import BookmarkManager from 'src/core/main/ts/api/dom/BookmarkManager';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import Outdent from './Outdent';
 import Bookmark from '../core/Bookmark';
 import NodeType from '../core/NodeType';

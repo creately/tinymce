@@ -2,8 +2,8 @@ import { Chain, Logger, Pipeline } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { Editor as McEditor } from '@ephox/mcagar';
 
-import { Editor } from 'tinymce/core/api/Editor';
-import EditorManager from 'tinymce/core/api/EditorManager';
+import { Editor } from 'src/core/main/ts/api/Editor';
+import EditorManager from 'src/core/main/ts/api/EditorManager';
 import Theme from 'tinymce/themes/modern/Theme';
 
 UnitTest.asynctest('browser.tinymce.core.EditorRemoveTest', (success, failure) => {

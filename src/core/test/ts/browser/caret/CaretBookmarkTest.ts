@@ -1,7 +1,7 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import * as CaretBookmark from 'tinymce/core/caret/CaretBookmark';
-import CaretPosition from 'tinymce/core/caret/CaretPosition';
+import * as CaretBookmark from 'src/core/main/ts/caret/CaretBookmark';
+import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
 import CaretAsserts from '../../module/test/CaretAsserts';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';

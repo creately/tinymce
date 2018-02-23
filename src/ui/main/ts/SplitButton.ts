@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DomQuery from 'tinymce/core/api/dom/DomQuery';
+import DomQuery from 'src/core/main/ts/api/dom/DomQuery';
 import DomUtils from './DomUtils';
 import MenuButton from './MenuButton';
 

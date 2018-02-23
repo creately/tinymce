@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import $ from 'tinymce/core/api/dom/DomQuery';
+import $ from 'src/core/main/ts/api/dom/DomQuery';
 import Control from './Control';
-import Delay from 'tinymce/core/api/util/Delay';
+import Delay from 'src/core/main/ts/api/util/Delay';
 
 /**
  * This class enables you to display a Throbber for any element.

@@ -9,7 +9,7 @@
  */
 
 import PanelButton from './PanelButton';
-import DomUtils from 'tinymce/core/api/dom/DOMUtils';
+import DomUtils from 'src/core/main/ts/api/dom/DOMUtils';
 
 /**
  * This class creates a color button control. This is a split button in which the main

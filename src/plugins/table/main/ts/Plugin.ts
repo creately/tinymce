@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import PluginManager from 'tinymce/core/api/PluginManager';
+import PluginManager from 'src/core/main/ts/api/PluginManager';
 import Clipboard from './actions/Clipboard';
 import TableActions from './actions/TableActions';
 import Commands from './api/Commands';

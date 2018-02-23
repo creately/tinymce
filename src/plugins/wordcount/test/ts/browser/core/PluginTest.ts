@@ -2,7 +2,7 @@ import { Assertions, GeneralSteps, Keyboard, Keys, Pipeline, Step, Waiter } from
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyDom, TinyLoader } from '@ephox/mcagar';
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 import Plugin from 'tinymce/plugins/wordcount/Plugin';
 import Theme from 'tinymce/themes/modern/Theme';
 

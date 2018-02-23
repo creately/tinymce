@@ -9,7 +9,7 @@
  */
 
 import { Option } from '@ephox/katamari';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 
 const getUiContainerDelta = function (ctrl) {
   const uiContainer = getUiContainer(ctrl);

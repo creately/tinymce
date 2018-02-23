@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Factory from 'tinymce/core/api/ui/Factory';
-import Tools from 'tinymce/core/api/util/Tools';
+import Factory from 'src/core/main/ts/api/ui/Factory';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import * as Settings from '../api/Settings';
 
 const createToolbar = function (editor, items, size?) {

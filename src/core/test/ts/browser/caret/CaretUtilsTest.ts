@@ -1,10 +1,10 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Env from 'tinymce/core/api/Env';
-import * as CaretUtils from 'tinymce/core/caret/CaretUtils';
-import CaretPosition from 'tinymce/core/caret/CaretPosition';
-import Zwsp from 'tinymce/core/text/Zwsp';
-import $ from 'tinymce/core/api/dom/DomQuery';
+import Env from 'src/core/main/ts/api/Env';
+import * as CaretUtils from 'src/core/main/ts/caret/CaretUtils';
+import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
+import Zwsp from 'src/core/main/ts/text/Zwsp';
+import $ from 'src/core/main/ts/api/dom/DomQuery';
 import CaretAsserts from '../../module/test/CaretAsserts';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';

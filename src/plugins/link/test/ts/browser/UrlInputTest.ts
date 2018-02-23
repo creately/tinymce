@@ -4,7 +4,7 @@ import { TinyLoader, TinyUi } from '@ephox/mcagar';
 
 import LinkPlugin from 'tinymce/plugins/link/Plugin';
 import ModernTheme from 'tinymce/themes/modern/Theme';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 
 const cFakeEvent = function (name) {
   return Chain.op(function (elm) {

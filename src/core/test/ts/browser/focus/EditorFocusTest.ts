@@ -1,7 +1,7 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline } from '@ephox/agar';
 import { Focus, Hierarchy, Element } from '@ephox/sugar';
-import EditorManager from 'tinymce/core/api/EditorManager';
-import EditorFocus from 'tinymce/core/focus/EditorFocus';
+import EditorManager from 'src/core/main/ts/api/EditorManager';
+import EditorFocus from 'src/core/main/ts/focus/EditorFocus';
 import ViewBlock from '../../module/test/ViewBlock';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';

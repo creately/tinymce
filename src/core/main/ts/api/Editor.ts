@@ -23,8 +23,8 @@ import Sidebar from '../ui/Sidebar';
 import Tools from './util/Tools';
 import URI from './util/URI';
 import Uuid from '../util/Uuid';
-import { Selection } from 'tinymce/core/api/dom/Selection';
-import * as EditorContent from 'tinymce/core/EditorContent';
+import { Selection } from 'src/core/main/ts/api/dom/Selection';
+import * as EditorContent from 'src/core/main/ts/EditorContent';
 import * as EditorRemove from '../EditorRemove';
 
 /*jshint scripturl:true */

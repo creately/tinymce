@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'src/core/main/ts/api/Editor';
 
 const firePreProcess = (editor: Editor, args) => editor.fire('PreProcess', args);
 

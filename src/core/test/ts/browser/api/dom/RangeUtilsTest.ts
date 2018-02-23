@@ -1,6 +1,6 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
-import RangeUtils from 'tinymce/core/api/dom/RangeUtils';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import RangeUtils from 'src/core/main/ts/api/dom/RangeUtils';
+import DOMUtils from 'src/core/main/ts/api/dom/DOMUtils';
 import ViewBlock from '../../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

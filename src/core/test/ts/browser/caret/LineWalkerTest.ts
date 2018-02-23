@@ -1,9 +1,9 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Env from 'tinymce/core/api/Env';
-import * as LineWalker from 'tinymce/core/caret/LineWalker';
-import CaretPosition from 'tinymce/core/caret/CaretPosition';
-import $ from 'tinymce/core/api/dom/DomQuery';
+import Env from 'src/core/main/ts/api/Env';
+import * as LineWalker from 'src/core/main/ts/caret/LineWalker';
+import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
+import $ from 'src/core/main/ts/api/dom/DomQuery';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

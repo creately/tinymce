@@ -13,10 +13,10 @@ import TreeWalker from '../api/dom/TreeWalker';
 import NodeType from '../dom/NodeType';
 import * as CaretContainer from './CaretContainer';
 import * as CaretCandidate from './CaretCandidate';
-import { CaretPosition } from 'tinymce/core/caret/CaretPosition';
+import { CaretPosition } from 'src/core/main/ts/caret/CaretPosition';
 import { Option } from '@ephox/katamari';
-import { HDirection } from 'tinymce/core/caret/CaretWalker';
-import { isFakeCaretTarget } from 'tinymce/core/caret/FakeCaret';
+import { HDirection } from 'src/core/main/ts/caret/CaretWalker';
+import { isFakeCaretTarget } from 'src/core/main/ts/caret/FakeCaret';
 
 const isContentEditableTrue = NodeType.isContentEditableTrue;
 const isContentEditableFalse = NodeType.isContentEditableFalse;

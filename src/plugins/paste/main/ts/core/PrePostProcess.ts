@@ -9,7 +9,7 @@
  */
 
 import Settings from '../api/Settings';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'src/core/main/ts/api/Editor';
 
 const setup = function (editor: Editor) {
   const plugin = editor.plugins.paste;

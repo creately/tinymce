@@ -8,11 +8,11 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import { Editor } from 'tinymce/core/api/Editor';
-import Node from 'tinymce/core/api/html/Node';
-import Tools from 'tinymce/core/api/util/Tools';
-import TrimHtml from 'tinymce/core/dom/TrimHtml';
-import Serializer from 'tinymce/core/api/html/Serializer';
+import { Editor } from 'src/core/main/ts/api/Editor';
+import Node from 'src/core/main/ts/api/html/Node';
+import Tools from 'src/core/main/ts/api/util/Tools';
+import TrimHtml from 'src/core/main/ts/dom/TrimHtml';
+import Serializer from 'src/core/main/ts/api/html/Serializer';
 import * as FilterNode from './html/FilterNode';
 
 const defaultFormat = 'html';

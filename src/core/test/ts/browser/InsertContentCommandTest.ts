@@ -1,6 +1,6 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import JSON from 'tinymce/core/api/util/JSON';
+import JSON from 'src/core/main/ts/api/util/JSON';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

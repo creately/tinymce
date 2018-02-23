@@ -2,7 +2,7 @@ import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Remove, Replication, Element, Attr, Html, SelectorFilter } from '@ephox/sugar';
-import TableDelete from 'tinymce/core/delete/TableDelete';
+import TableDelete from 'src/core/main/ts/delete/TableDelete';
 import ModernTheme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

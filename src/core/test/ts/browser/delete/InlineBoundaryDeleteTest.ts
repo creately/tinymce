@@ -1,9 +1,9 @@
 import { ApproxStructure, Assertions, GeneralSteps, Keys, Logger, Pipeline, Step } from '@ephox/agar';
 import { Fun } from '@ephox/katamari';
 import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
-import CaretPosition from 'tinymce/core/caret/CaretPosition';
-import BoundaryLocation from 'tinymce/core/keyboard/BoundaryLocation';
-import InlineUtils from 'tinymce/core/keyboard/InlineUtils';
+import CaretPosition from 'src/core/main/ts/caret/CaretPosition';
+import BoundaryLocation from 'src/core/main/ts/keyboard/BoundaryLocation';
+import InlineUtils from 'src/core/main/ts/keyboard/InlineUtils';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

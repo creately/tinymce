@@ -2,7 +2,7 @@ import { ApproxStructure, Pipeline } from '@ephox/agar';
 import { UnitTest } from '@ephox/bedrock';
 import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 
-import Env from 'tinymce/core/api/Env';
+import Env from 'src/core/main/ts/api/Env';
 import TextcolorPlugin from 'tinymce/plugins/textcolor/Plugin';
 import ModernTheme from 'tinymce/themes/modern/Theme';
 

@@ -1,7 +1,7 @@
 import { Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit } from '@ephox/mcagar';
-import EventUtils from 'tinymce/core/api/dom/EventUtils';
+import EventUtils from 'src/core/main/ts/api/dom/EventUtils';
 import { UnitTest } from '@ephox/bedrock';
 
 declare const document: any;

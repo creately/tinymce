@@ -1,6 +1,6 @@
 import { GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
-import InsertBr from 'tinymce/core/newline/InsertBr';
+import InsertBr from 'src/core/main/ts/newline/InsertBr';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

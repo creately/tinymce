@@ -9,7 +9,7 @@
  */
 
 import { Fun } from '@ephox/katamari';
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'src/core/main/ts/api/util/Tools';
 import Util from '../alien/Util';
 import { getColorPickerCallback } from '../api/Settings';
 
