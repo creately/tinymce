@@ -1,7 +1,7 @@
 import { Assertions } from '@ephox/agar';
-import { Editor } from 'tinymce/core/api/Editor';
-import EditorManager from 'tinymce/core/api/EditorManager';
-import PluginManager from 'tinymce/core/api/PluginManager';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import PluginManager from 'tinymce/src/core/main/ts/api/PluginManager';
 import DetectProPlugin from 'tinymce/plugins/spellchecker/alien/DetectProPlugin';
 import { UnitTest } from '@ephox/bedrock';
 

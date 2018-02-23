@@ -1,6 +1,6 @@
 import { Assertions, Pipeline, Step } from '@ephox/agar';
 import { Option } from '@ephox/katamari';
-import LazyEvaluator from 'tinymce/core/util/LazyEvaluator';
+import LazyEvaluator from 'tinymce/src/core/main/ts/util/LazyEvaluator';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('atomic.tinymce.core.util.LazyEvaluatorTest', function () {

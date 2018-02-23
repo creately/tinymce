@@ -1,7 +1,7 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline } from '@ephox/agar';
 import { Fun } from '@ephox/katamari';
 import { Hierarchy, Element } from '@ephox/sugar';
-import * as CefDeleteAction from 'tinymce/core/delete/CefDeleteAction';
+import * as CefDeleteAction from 'tinymce/src/core/main/ts/delete/CefDeleteAction';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

@@ -1,7 +1,7 @@
 import { Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit } from '@ephox/mcagar';
-import LocalStorage from 'tinymce/core/api/util/LocalStorage';
+import LocalStorage from 'tinymce/src/core/main/ts/api/util/LocalStorage';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.util.LocalStorageTest', function () {

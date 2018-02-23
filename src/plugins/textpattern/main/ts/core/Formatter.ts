@@ -8,8 +8,8 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import TreeWalker from 'tinymce/core/api/dom/TreeWalker';
-import Tools from 'tinymce/core/api/util/Tools';
+import TreeWalker from 'tinymce/src/core/main/ts/api/dom/TreeWalker';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Patterns from './Patterns';
 
 const splitContainer = function (container, pattern, endOffset, startOffset, space) {

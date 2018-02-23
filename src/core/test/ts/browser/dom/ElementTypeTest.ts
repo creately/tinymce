@@ -1,6 +1,6 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { Element } from '@ephox/sugar';
-import * as ElementType from 'tinymce/core/dom/ElementType';
+import * as ElementType from 'tinymce/src/core/main/ts/dom/ElementType';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.dom.ElementTypeTest', function () {

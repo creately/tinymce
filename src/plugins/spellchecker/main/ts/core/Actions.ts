@@ -8,13 +8,13 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'tinymce/core/api/util/Tools';
-import URI from 'tinymce/core/api/util/URI';
-import XHR from 'tinymce/core/api/util/XHR';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import URI from 'tinymce/src/core/main/ts/api/util/URI';
+import XHR from 'tinymce/src/core/main/ts/api/util/XHR';
 import Events from '../api/Events';
 import Settings from '../api/Settings';
 import DomTextMatcher from './DomTextMatcher';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 type Data = string | {words: any, dictionary?: any};
 

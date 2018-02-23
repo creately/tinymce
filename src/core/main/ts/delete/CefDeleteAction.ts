@@ -16,7 +16,7 @@ import * as CaretUtils from '../caret/CaretUtils';
 import DeleteUtils from './DeleteUtils';
 import Empty from '../dom/Empty';
 import NodeType from '../dom/NodeType';
-import * as ElementType from 'tinymce/core/dom/ElementType';
+import * as ElementType from 'tinymce/src/core/main/ts/dom/ElementType';
 
 const isCompoundElement = (node: Node) => ElementType.isTableCell(Element.fromDom(node)) || ElementType.isListItem(Element.fromDom(node));
 

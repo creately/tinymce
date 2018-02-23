@@ -9,9 +9,9 @@
  */
 
 import Bookmark from './Bookmark';
-import Tools from 'tinymce/core/api/util/Tools';
-import TreeWalker from 'tinymce/core/api/dom/TreeWalker';
-import RangeUtils from 'tinymce/core/api/dom/RangeUtils';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import TreeWalker from 'tinymce/src/core/main/ts/api/dom/TreeWalker';
+import RangeUtils from 'tinymce/src/core/main/ts/api/dom/RangeUtils';
 
 /**
  * Unlink implementation that doesn't leave partial links for example it would produce:

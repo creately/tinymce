@@ -2,10 +2,10 @@ import { GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
-import * as EditorContent from 'tinymce/core/EditorContent';
+import * as EditorContent from 'tinymce/src/core/main/ts/EditorContent';
 import Assertions from '@ephox/agar/lib/main/ts/ephox/agar/api/Assertions';
-import Serializer from 'tinymce/core/api/html/Serializer';
-import Node from 'tinymce/core/api/html/Node';
+import Serializer from 'tinymce/src/core/main/ts/api/html/Serializer';
+import Node from 'tinymce/src/core/main/ts/api/html/Node';
 
 UnitTest.asynctest('browser.tinymce.core.EditorGetContentTreeTest', function () {
   const success = arguments[arguments.length - 2];

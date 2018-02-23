@@ -1,9 +1,9 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import EditorManager from 'tinymce/core/api/EditorManager';
-import Env from 'tinymce/core/api/Env';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import HtmlUtils from '../module/test/HtmlUtils';
-import URI from 'tinymce/core/api/util/URI';
+import URI from 'tinymce/src/core/main/ts/api/util/URI';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

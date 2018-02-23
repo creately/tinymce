@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 const pasteHtml = function (editor: Editor, html: string) {
   editor.insertContent(html, {

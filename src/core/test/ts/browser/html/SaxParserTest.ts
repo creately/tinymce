@@ -1,9 +1,9 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import SaxParser from 'tinymce/core/api/html/SaxParser';
-import Writer from 'tinymce/core/api/html/Writer';
-import Schema from 'tinymce/core/api/html/Schema';
-import Tools from 'tinymce/core/api/util/Tools';
+import SaxParser from 'tinymce/src/core/main/ts/api/html/SaxParser';
+import Writer from 'tinymce/src/core/main/ts/api/html/Writer';
+import Schema from 'tinymce/src/core/main/ts/api/html/Schema';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.html.SaxParserTest', function () {

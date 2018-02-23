@@ -9,9 +9,9 @@
  */
 
 import Binding from './Binding';
-import Class from 'tinymce/core/api/util/Class';
-import Observable from 'tinymce/core/api/util/Observable';
-import Tools from 'tinymce/core/api/util/Tools';
+import Class from 'tinymce/src/core/main/ts/api/util/Class';
+import Observable from 'tinymce/src/core/main/ts/api/util/Observable';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 /**
  * This class is a object that is observable when properties changes a change event gets emitted.

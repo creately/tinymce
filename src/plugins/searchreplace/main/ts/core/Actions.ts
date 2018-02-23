@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import FindReplaceText from './FindReplaceText';
 
 const getElmIndex = function (elm) {

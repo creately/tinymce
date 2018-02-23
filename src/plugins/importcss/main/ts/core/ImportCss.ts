@@ -8,10 +8,10 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import EditorManager from 'tinymce/core/api/EditorManager';
-import Env from 'tinymce/core/api/Env';
-import Tools from 'tinymce/core/api/util/Tools';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import EditorManager from 'tinymce/src/core/main/ts/api/EditorManager';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 
 const removeCacheSuffix = function (url) {

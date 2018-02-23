@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'tinymce/core/api/util/Tools';
-import Env from 'tinymce/core/api/Env';
-import { Editor } from 'tinymce/core/api/Editor';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import { Cell } from '@ephox/katamari';
 
 /**

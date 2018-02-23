@@ -3,8 +3,8 @@ import { Cell, Fun } from '@ephox/katamari';
 import { PlatformDetection } from '@ephox/sand';
 import { Element, Focus, Insert, Node } from '@ephox/sugar';
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import ThemeManager from 'tinymce/core/api/ThemeManager';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import ThemeManager from 'tinymce/src/core/main/ts/api/ThemeManager';
 
 import TinyCodeDupe from './alien/TinyCodeDupe';
 import Settings from './api/Settings';

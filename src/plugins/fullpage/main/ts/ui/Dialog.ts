@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Parser from '../core/Parser';
 
 const open = function (editor, headState) {

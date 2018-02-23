@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { Arr } from '@ephox/katamari';
 import { TinyApis, TinyLoader, TinyUi } from '@ephox/mcagar';
 
-import Conversions from 'tinymce/core/file/Conversions';
+import Conversions from 'tinymce/src/core/main/ts/file/Conversions';
 import Plugin from 'tinymce/plugins/image/Plugin';
 import Theme from 'tinymce/themes/modern/Theme';
 

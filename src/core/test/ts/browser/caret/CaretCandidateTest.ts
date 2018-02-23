@@ -1,9 +1,9 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Env from 'tinymce/core/api/Env';
-import * as CaretCandidate from 'tinymce/core/caret/CaretCandidate';
-import $ from 'tinymce/core/api/dom/DomQuery';
-import Zwsp from 'tinymce/core/text/Zwsp';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import * as CaretCandidate from 'tinymce/src/core/main/ts/caret/CaretCandidate';
+import $ from 'tinymce/src/core/main/ts/api/dom/DomQuery';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

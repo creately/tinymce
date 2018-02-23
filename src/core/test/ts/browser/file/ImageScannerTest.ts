@@ -1,11 +1,11 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
 import { URL } from '@ephox/sand';
-import Env from 'tinymce/core/api/Env';
-import BlobCache from 'tinymce/core/api/file/BlobCache';
-import Conversions from 'tinymce/core/file/Conversions';
-import ImageScanner from 'tinymce/core/file/ImageScanner';
-import UploadStatus from 'tinymce/core/file/UploadStatus';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import BlobCache from 'tinymce/src/core/main/ts/api/file/BlobCache';
+import Conversions from 'tinymce/src/core/main/ts/file/Conversions';
+import ImageScanner from 'tinymce/src/core/main/ts/file/ImageScanner';
+import UploadStatus from 'tinymce/src/core/main/ts/file/UploadStatus';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

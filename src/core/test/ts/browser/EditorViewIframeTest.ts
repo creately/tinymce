@@ -1,7 +1,7 @@
 import { Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Element, Css, SelectorFind } from '@ephox/sugar';
-import EditorView from 'tinymce/core/EditorView';
+import EditorView from 'tinymce/src/core/main/ts/EditorView';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

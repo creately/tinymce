@@ -1,9 +1,9 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline } from '@ephox/agar';
 import { Hierarchy, Element, SelectorFind } from '@ephox/sugar';
-import { getClosestCellAbove, getClosestCellBelow, findClosestPositionInAboveCell, findClosestPositionInBelowCell } from 'tinymce/core/caret/TableCells';
+import { getClosestCellAbove, getClosestCellBelow, findClosestPositionInAboveCell, findClosestPositionInBelowCell } from 'tinymce/src/core/main/ts/caret/TableCells';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
-import { CaretPosition } from 'tinymce/core/caret/CaretPosition';
+import { CaretPosition } from 'tinymce/src/core/main/ts/caret/CaretPosition';
 
 UnitTest.asynctest('browser.tinymce.core.caret.TableCellsTest', function () {
   const success = arguments[arguments.length - 2];

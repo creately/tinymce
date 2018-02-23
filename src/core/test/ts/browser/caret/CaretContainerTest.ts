@@ -1,11 +1,11 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
-import * as CaretContainer from 'tinymce/core/caret/CaretContainer';
-import CaretPosition from 'tinymce/core/caret/CaretPosition';
-import DomQuery from 'tinymce/core/api/dom/DomQuery';
-import Env from 'tinymce/core/api/Env';
+import * as CaretContainer from 'tinymce/src/core/main/ts/caret/CaretContainer';
+import CaretPosition from 'tinymce/src/core/main/ts/caret/CaretPosition';
+import DomQuery from 'tinymce/src/core/main/ts/api/dom/DomQuery';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import ViewBlock from '../../module/test/ViewBlock';
-import Zwsp from 'tinymce/core/text/Zwsp';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.CaretContainerTest', function () {

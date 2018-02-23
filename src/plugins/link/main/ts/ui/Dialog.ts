@@ -8,9 +8,9 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import Delay from 'tinymce/core/api/util/Delay';
-import Tools from 'tinymce/core/api/util/Tools';
-import XHR from 'tinymce/core/api/util/XHR';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
+import XHR from 'tinymce/src/core/main/ts/api/util/XHR';
 import Settings from '../api/Settings';
 import Utils from '../core/Utils';
 

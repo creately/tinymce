@@ -8,7 +8,7 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import PluginManager from 'tinymce/core/api/PluginManager';
+import PluginManager from 'tinymce/src/core/main/ts/api/PluginManager';
 import Dialog from './ui/Dialog';
 
 PluginManager.add('colorpicker', function (editor) {

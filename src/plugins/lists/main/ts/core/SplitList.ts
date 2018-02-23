@@ -8,10 +8,10 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import NodeType from './NodeType';
 import TextBlock from './TextBlock';
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 
 const DOM = DOMUtils.DOM;
 

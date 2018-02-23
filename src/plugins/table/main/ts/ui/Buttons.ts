@@ -9,7 +9,7 @@
  */
 
 import { Fun } from '@ephox/katamari';
-import Tools from 'tinymce/core/api/util/Tools';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import TableDialog from './TableDialog';
 import { getToolbar } from '../api/Settings';
 

@@ -1,9 +1,9 @@
 import { Pipeline } from '@ephox/agar';
 import { LegacyUnit } from '@ephox/mcagar';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import DomParser from 'tinymce/core/api/html/DomParser';
-import Schema from 'tinymce/core/api/html/Schema';
-import InsertList from 'tinymce/core/InsertList';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import DomParser from 'tinymce/src/core/main/ts/api/html/DomParser';
+import Schema from 'tinymce/src/core/main/ts/api/html/Schema';
+import InsertList from 'tinymce/src/core/main/ts/InsertList';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.InsertListTest', function () {

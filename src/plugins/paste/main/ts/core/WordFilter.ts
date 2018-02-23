@@ -8,14 +8,14 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DomParser from 'tinymce/core/api/html/DomParser';
-import Node from 'tinymce/core/api/html/Node';
-import Schema from 'tinymce/core/api/html/Schema';
-import Serializer from 'tinymce/core/api/html/Serializer';
-import Tools from 'tinymce/core/api/util/Tools';
+import DomParser from 'tinymce/src/core/main/ts/api/html/DomParser';
+import Node from 'tinymce/src/core/main/ts/api/html/Node';
+import Schema from 'tinymce/src/core/main/ts/api/html/Schema';
+import Serializer from 'tinymce/src/core/main/ts/api/html/Serializer';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 import Utils from './Utils';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 
 /**
  * This class parses word HTML into proper TinyMCE markup.

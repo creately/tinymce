@@ -1,7 +1,7 @@
 import { Assertions, Chain, GeneralSteps, Logger, Pipeline } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { Hierarchy, Insert, Element, Html } from '@ephox/sugar';
-import FragmentReader from 'tinymce/core/selection/FragmentReader';
+import FragmentReader from 'tinymce/src/core/main/ts/selection/FragmentReader';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

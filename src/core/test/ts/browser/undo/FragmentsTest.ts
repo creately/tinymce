@@ -1,6 +1,6 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Fragments from 'tinymce/core/undo/Fragments';
+import Fragments from 'tinymce/src/core/main/ts/undo/Fragments';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.undo.FragmentsTest', function () {

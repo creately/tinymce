@@ -1,7 +1,7 @@
 import { ApproxStructure, Assertions, GeneralSteps, Logger, Pipeline, Step } from '@ephox/agar';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
-import InlineFormatDelete from 'tinymce/core/delete/InlineFormatDelete';
-import Zwsp from 'tinymce/core/text/Zwsp';
+import InlineFormatDelete from 'tinymce/src/core/main/ts/delete/InlineFormatDelete';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

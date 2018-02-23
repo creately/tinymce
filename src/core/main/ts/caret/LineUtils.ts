@@ -15,8 +15,8 @@ import * as ClientRect from '../geom/ClientRect';
 import * as CaretUtils from './CaretUtils';
 import * as CaretCandidate from './CaretCandidate';
 import { Fun } from '@ephox/katamari';
-import { ClientRectLine, VDirection } from 'tinymce/core/caret/LineWalker';
-import { isFakeCaretTarget } from 'tinymce/core/caret/FakeCaret';
+import { ClientRectLine, VDirection } from 'tinymce/src/core/main/ts/caret/LineWalker';
+import { isFakeCaretTarget } from 'tinymce/src/core/main/ts/caret/FakeCaret';
 
 export interface CaretInfo {
   node: Node;

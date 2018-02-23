@@ -8,10 +8,10 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DomQuery from 'tinymce/core/api/dom/DomQuery';
-import Class from 'tinymce/core/api/util/Class';
-import EventDispatcher from 'tinymce/core/api/util/EventDispatcher';
-import Tools from 'tinymce/core/api/util/Tools';
+import DomQuery from 'tinymce/src/core/main/ts/api/dom/DomQuery';
+import Class from 'tinymce/src/core/main/ts/api/util/Class';
+import EventDispatcher from 'tinymce/src/core/main/ts/api/util/EventDispatcher';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import BoxUtils from './BoxUtils';
 import ClassList from './ClassList';
 import Collection from './Collection';

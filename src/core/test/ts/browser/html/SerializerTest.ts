@@ -1,8 +1,8 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import DomParser from 'tinymce/core/api/html/DomParser';
-import Serializer from 'tinymce/core/api/html/Serializer';
-import Schema from 'tinymce/core/api/html/Schema';
+import DomParser from 'tinymce/src/core/main/ts/api/html/DomParser';
+import Serializer from 'tinymce/src/core/main/ts/api/html/Serializer';
+import Schema from 'tinymce/src/core/main/ts/api/html/Schema';
 import { UnitTest } from '@ephox/bedrock';
 
 UnitTest.asynctest('browser.tinymce.core.html.SerializerTest', function () {

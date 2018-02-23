@@ -1,7 +1,7 @@
 import { LegacyUnit } from '@ephox/mcagar';
 import { Pipeline } from '@ephox/agar';
-import Arr from 'tinymce/core/util/Arr';
-import * as Dimensions from 'tinymce/core/dom/Dimensions';
+import Arr from 'tinymce/src/core/main/ts/util/Arr';
+import * as Dimensions from 'tinymce/src/core/main/ts/dom/Dimensions';
 import ViewBlock from '../../module/test/ViewBlock';
 import { UnitTest } from '@ephox/bedrock';
 

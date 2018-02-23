@@ -1,11 +1,11 @@
 import { Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit } from '@ephox/mcagar';
-import Serializer from 'tinymce/core/api/dom/Serializer';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import TrimHtml from 'tinymce/core/dom/TrimHtml';
+import Serializer from 'tinymce/src/core/main/ts/api/dom/Serializer';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import TrimHtml from 'tinymce/src/core/main/ts/dom/TrimHtml';
 import ViewBlock from '../../module/test/ViewBlock';
-import Zwsp from 'tinymce/core/text/Zwsp';
+import Zwsp from 'tinymce/src/core/main/ts/text/Zwsp';
 import { UnitTest } from '@ephox/bedrock';
 
 declare const escape: any;

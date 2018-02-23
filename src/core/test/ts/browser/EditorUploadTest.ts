@@ -1,9 +1,9 @@
 import { Pipeline, Step } from '@ephox/agar';
 import { Arr } from '@ephox/katamari';
 import { LegacyUnit, TinyLoader } from '@ephox/mcagar';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
-import Env from 'tinymce/core/api/Env';
-import Conversions from 'tinymce/core/file/Conversions';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
+import Env from 'tinymce/src/core/main/ts/api/Env';
+import Conversions from 'tinymce/src/core/main/ts/file/Conversions';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

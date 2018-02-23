@@ -8,12 +8,12 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import RangeUtils from 'tinymce/core/api/dom/RangeUtils';
-import Delay from 'tinymce/core/api/util/Delay';
+import RangeUtils from 'tinymce/src/core/main/ts/api/dom/RangeUtils';
+import Delay from 'tinymce/src/core/main/ts/api/util/Delay';
 import Settings from '../api/Settings';
 import InternalHtml from './InternalHtml';
 import Utils from './Utils';
-import { Editor } from 'tinymce/core/api/Editor';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
 import { Clipboard } from '../api/Clipboard';
 
 const getCaretRangeFromEvent = function (editor: Editor, e: MouseEvent) {

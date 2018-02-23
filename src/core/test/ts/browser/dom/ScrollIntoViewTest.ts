@@ -2,7 +2,7 @@ import { Assertions, GeneralSteps, Logger, Pipeline, Step, Waiter } from '@ephox
 import { Cell } from '@ephox/katamari';
 import { TinyApis, TinyLoader } from '@ephox/mcagar';
 import { Element } from '@ephox/sugar';
-import ScrollIntoView from 'tinymce/core/dom/ScrollIntoView';
+import ScrollIntoView from 'tinymce/src/core/main/ts/dom/ScrollIntoView';
 import Theme from 'tinymce/themes/modern/Theme';
 import { UnitTest } from '@ephox/bedrock';
 

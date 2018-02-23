@@ -3,7 +3,7 @@ import { UnitTest } from '@ephox/bedrock';
 import { Cell } from '@ephox/katamari';
 import { TinyActions, TinyApis, TinyLoader } from '@ephox/mcagar';
 
-import Env from 'tinymce/core/api/Env';
+import Env from 'tinymce/src/core/main/ts/api/Env';
 import TablePlugin from 'tinymce/plugins/table/Plugin';
 import ModernTheme from 'tinymce/themes/modern/Theme';
 

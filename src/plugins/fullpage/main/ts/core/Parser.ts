@@ -8,10 +8,10 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-import DomParser from 'tinymce/core/api/html/DomParser';
-import Node from 'tinymce/core/api/html/Node';
-import Serializer from 'tinymce/core/api/html/Serializer';
-import Tools from 'tinymce/core/api/util/Tools';
+import DomParser from 'tinymce/src/core/main/ts/api/html/DomParser';
+import Node from 'tinymce/src/core/main/ts/api/html/Node';
+import Serializer from 'tinymce/src/core/main/ts/api/html/Serializer';
+import Tools from 'tinymce/src/core/main/ts/api/util/Tools';
 import Settings from '../api/Settings';
 
 const parseHeader = function (head) {

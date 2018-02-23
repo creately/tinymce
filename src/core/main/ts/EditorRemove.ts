@@ -1,7 +1,7 @@
-import { Editor } from 'tinymce/core/api/Editor';
-import DOMUtils from 'tinymce/core/api/dom/DOMUtils';
+import { Editor } from 'tinymce/src/core/main/ts/api/Editor';
+import DOMUtils from 'tinymce/src/core/main/ts/api/dom/DOMUtils';
 import { Option } from '@ephox/katamari';
-import Events from 'tinymce/core/api/Events';
+import Events from 'tinymce/src/core/main/ts/api/Events';
 
 const DOM = DOMUtils.DOM;
 
