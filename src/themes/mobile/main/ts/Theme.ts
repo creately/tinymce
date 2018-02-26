@@ -23,216 +23,222 @@ import SkinLoaded from './util/SkinLoaded';
 const READING = Fun.constant('toReading'); /// 'hide the keyboard'
 const EDITING = Fun.constant('toEditing'); /// 'show the keyboard'
 
-ThemeManager.add('mobile', function (editor) {
-  const renderUI = function (args) {
-    const cssUrls = CssUrls.derive(editor);
+const init = function () {
 
-    if (Settings.isSkinDisabled(editor) === false) {
-      editor.contentCSS.push(cssUrls.content);
-      DOMUtils.DOM.styleSheetLoader.load(cssUrls.ui, SkinLoaded.fireSkinLoaded(editor));
-    } else {
-      SkinLoaded.fireSkinLoaded(editor)();
-    }
+  ThemeManager.add('mobile', function (editor) {
+    const renderUI = function (args) {
+      const cssUrls = CssUrls.derive(editor);
 
-    const doScrollIntoView = function () {
-      editor.fire('scrollIntoView');
-    };
-
-    const wrapper = Element.fromTag('div');
-    const realm = PlatformDetection.detect().os.isAndroid() ? AndroidRealm(doScrollIntoView) : IosRealm(doScrollIntoView);
-    const original = Element.fromDom(args.targetNode);
-    Insert.after(original, wrapper);
-    Attachment.attachSystem(wrapper, realm.system());
-
-    const findFocusIn = function (elem) {
-      return Focus.search(elem).bind(function (focused) {
-        return realm.system().getByDom(focused).toOption();
-      });
-    };
-    const outerWindow = args.targetNode.ownerDocument.defaultView;
-    const orientation = Orientation.onChange(outerWindow, {
-      onChange () {
-        const alloy = realm.system();
-        alloy.broadcastOn([ TinyChannels.orientationChanged() ], { width: Orientation.getActualWidth(outerWindow) });
-      },
-      onReady: Fun.noop
-    });
-
-    const setReadOnly = function (readOnlyGroups, mainGroups, ro) {
-      if (ro === false) {
-        editor.selection.collapse();
+      if (Settings.isSkinDisabled(editor) === false) {
+        editor.contentCSS.push(cssUrls.content);
+        DOMUtils.DOM.styleSheetLoader.load(cssUrls.ui, SkinLoaded.fireSkinLoaded(editor));
+      } else {
+        SkinLoaded.fireSkinLoaded(editor)();
       }
-      realm.setToolbarGroups(ro ? readOnlyGroups.get() : mainGroups.get());
-      editor.setMode(ro === true ? 'readonly' : 'design');
-      editor.fire(ro === true ? READING() : EDITING());
-      realm.updateMode(ro);
-    };
 
-    const bindHandler = function (label, handler) {
-      editor.on(label, handler);
-      return {
-        unbind () {
-          editor.off(label);
-        }
+      const doScrollIntoView = function () {
+        editor.fire('scrollIntoView');
       };
-    };
 
-    editor.on('init', function () {
-      realm.init({
-        editor: {
-          getFrame () {
-            return Element.fromDom(editor.contentAreaContainer.querySelector('iframe'));
-          },
+      const wrapper = Element.fromTag('div');
+      const realm = PlatformDetection.detect().os.isAndroid() ? AndroidRealm(doScrollIntoView) : IosRealm(doScrollIntoView);
+      const original = Element.fromDom(args.targetNode);
+      Insert.after(original, wrapper);
+      Attachment.attachSystem(wrapper, realm.system());
 
-          onDomChanged () {
-            return {
-              unbind: Fun.noop
-            };
-          },
-
-          onToReading (handler) {
-            return bindHandler(READING(), handler);
-          },
-
-          onToEditing (handler) {
-            return bindHandler(EDITING(), handler);
-          },
-
-          onScrollToCursor (handler) {
-            editor.on('scrollIntoView', function (tinyEvent) {
-              handler(tinyEvent);
-            });
-
-            const unbind = function () {
-              editor.off('scrollIntoView');
-              orientation.destroy();
-            };
-
-            return {
-              unbind
-            };
-          },
-
-          onTouchToolstrip () {
-            hideDropup();
-          },
-
-          onTouchContent () {
-            const toolbar = Element.fromDom(editor.editorContainer.querySelector('.' + Styles.resolve('toolbar')));
-            // If something in the toolbar had focus, fire an execute on it (execute on tap away)
-            // Perhaps it will be clearer later what is a better way of doing this.
-            findFocusIn(toolbar).each(AlloyTriggers.emitExecute);
-            realm.restoreToolbar();
-            hideDropup();
-          },
-
-          onTapContent (evt) {
-            const target = evt.target();
-            // If the user has tapped (touchstart, touchend without movement) on an image, select it.
-            if (Node.name(target) === 'img') {
-              editor.selection.select(target.dom());
-              // Prevent the default behaviour from firing so that the image stays selected
-              evt.kill();
-            } else if (Node.name(target) === 'a') {
-              const component = realm.system().getByDom(Element.fromDom(editor.editorContainer));
-              component.each(function (container) {
-                /// view mode
-                if (Swapping.isAlpha(container)) {
-                  TinyCodeDupe.openLink(target.dom());
-                }
-              });
-            }
-          }
-        },
-        container: Element.fromDom(editor.editorContainer),
-        socket: Element.fromDom(editor.contentAreaContainer),
-        toolstrip: Element.fromDom(editor.editorContainer.querySelector('.' + Styles.resolve('toolstrip'))),
-        toolbar: Element.fromDom(editor.editorContainer.querySelector('.' + Styles.resolve('toolbar'))),
-        dropup: realm.dropup(),
-        alloy: realm.system(),
-        translate: Fun.noop,
-
-        setReadOnly (ro) {
-          setReadOnly(readOnlyGroups, mainGroups, ro);
-        }
-      });
-
-      const hideDropup = function () {
-        realm.dropup().disappear(function () {
-          realm.system().broadcastOn([ TinyChannels.dropupDismissed() ], { });
+      const findFocusIn = function (elem) {
+        return Focus.search(elem).bind(function (focused) {
+          return realm.system().getByDom(focused).toOption();
         });
       };
+      const outerWindow = args.targetNode.ownerDocument.defaultView;
+      const orientation = Orientation.onChange(outerWindow, {
+        onChange () {
+          const alloy = realm.system();
+          alloy.broadcastOn([ TinyChannels.orientationChanged() ], { width: Orientation.getActualWidth(outerWindow) });
+        },
+        onReady: Fun.noop
+      });
 
-      Debugging.registerInspector('remove this', realm.system());
-
-      const backToMaskGroup = {
-        label: 'The first group',
-        scrollable: false,
-        items: [
-          Buttons.forToolbar('back', function (/* btn */) {
-            editor.selection.collapse();
-            realm.exit();
-          }, { })
-        ]
+      const setReadOnly = function (readOnlyGroups, mainGroups, ro) {
+        if (ro === false) {
+          editor.selection.collapse();
+        }
+        realm.setToolbarGroups(ro ? readOnlyGroups.get() : mainGroups.get());
+        editor.setMode(ro === true ? 'readonly' : 'design');
+        editor.fire(ro === true ? READING() : EDITING());
+        realm.updateMode(ro);
       };
 
-      const backToReadOnlyGroup = {
-        label: 'Back to read only',
-        scrollable: false,
-        items: [
-          Buttons.forToolbar('readonly-back', function (/* btn */) {
-            setReadOnly(readOnlyGroups, mainGroups, true);
-          }, {})
-        ]
+      const bindHandler = function (label, handler) {
+        editor.on(label, handler);
+        return {
+          unbind () {
+            editor.off(label);
+          }
+        };
       };
 
-      const readOnlyGroup = {
-        label: 'The read only mode group',
-        scrollable: true,
-        items: []
+      editor.on('init', function () {
+        realm.init({
+          editor: {
+            getFrame () {
+              return Element.fromDom(editor.contentAreaContainer.querySelector('iframe'));
+            },
+
+            onDomChanged () {
+              return {
+                unbind: Fun.noop
+              };
+            },
+
+            onToReading (handler) {
+              return bindHandler(READING(), handler);
+            },
+
+            onToEditing (handler) {
+              return bindHandler(EDITING(), handler);
+            },
+
+            onScrollToCursor (handler) {
+              editor.on('scrollIntoView', function (tinyEvent) {
+                handler(tinyEvent);
+              });
+
+              const unbind = function () {
+                editor.off('scrollIntoView');
+                orientation.destroy();
+              };
+
+              return {
+                unbind
+              };
+            },
+
+            onTouchToolstrip () {
+              hideDropup();
+            },
+
+            onTouchContent () {
+              const toolbar = Element.fromDom(editor.editorContainer.querySelector('.' + Styles.resolve('toolbar')));
+              // If something in the toolbar had focus, fire an execute on it (execute on tap away)
+              // Perhaps it will be clearer later what is a better way of doing this.
+              findFocusIn(toolbar).each(AlloyTriggers.emitExecute);
+              realm.restoreToolbar();
+              hideDropup();
+            },
+
+            onTapContent (evt) {
+              const target = evt.target();
+              // If the user has tapped (touchstart, touchend without movement) on an image, select it.
+              if (Node.name(target) === 'img') {
+                editor.selection.select(target.dom());
+                // Prevent the default behaviour from firing so that the image stays selected
+                evt.kill();
+              } else if (Node.name(target) === 'a') {
+                const component = realm.system().getByDom(Element.fromDom(editor.editorContainer));
+                component.each(function (container) {
+                  /// view mode
+                  if (Swapping.isAlpha(container)) {
+                    TinyCodeDupe.openLink(target.dom());
+                  }
+                });
+              }
+            }
+          },
+          container: Element.fromDom(editor.editorContainer),
+          socket: Element.fromDom(editor.contentAreaContainer),
+          toolstrip: Element.fromDom(editor.editorContainer.querySelector('.' + Styles.resolve('toolstrip'))),
+          toolbar: Element.fromDom(editor.editorContainer.querySelector('.' + Styles.resolve('toolbar'))),
+          dropup: realm.dropup(),
+          alloy: realm.system(),
+          translate: Fun.noop,
+
+          setReadOnly (ro) {
+            setReadOnly(readOnlyGroups, mainGroups, ro);
+          }
+        });
+
+        const hideDropup = function () {
+          realm.dropup().disappear(function () {
+            realm.system().broadcastOn([ TinyChannels.dropupDismissed() ], { });
+          });
+        };
+
+        Debugging.registerInspector('remove this', realm.system());
+
+        const backToMaskGroup = {
+          label: 'The first group',
+          scrollable: false,
+          items: [
+            Buttons.forToolbar('back', function (/* btn */) {
+              editor.selection.collapse();
+              realm.exit();
+            }, { })
+          ]
+        };
+
+        const backToReadOnlyGroup = {
+          label: 'Back to read only',
+          scrollable: false,
+          items: [
+            Buttons.forToolbar('readonly-back', function (/* btn */) {
+              setReadOnly(readOnlyGroups, mainGroups, true);
+            }, {})
+          ]
+        };
+
+        const readOnlyGroup = {
+          label: 'The read only mode group',
+          scrollable: true,
+          items: []
+        };
+
+        const features = Features.setup(realm, editor);
+        const items = Features.detect(editor.settings, features);
+
+        const actionGroup = {
+          label: 'the action group',
+          scrollable: true,
+          items
+        };
+
+        const extraGroup = {
+          label: 'The extra group',
+          scrollable: false,
+          items: [
+            // This is where the "add button" button goes.
+          ]
+        };
+
+        const mainGroups = Cell([ backToReadOnlyGroup, actionGroup, extraGroup ]);
+        const readOnlyGroups = Cell([ backToMaskGroup, readOnlyGroup, extraGroup ]);
+
+        // Investigate ways to keep in sync with the ui
+        FormatChangers.init(realm, editor);
+      });
+
+      return {
+        iframeContainer: realm.socket().element().dom(),
+        editorContainer: realm.element().dom()
       };
-
-      const features = Features.setup(realm, editor);
-      const items = Features.detect(editor.settings, features);
-
-      const actionGroup = {
-        label: 'the action group',
-        scrollable: true,
-        items
-      };
-
-      const extraGroup = {
-        label: 'The extra group',
-        scrollable: false,
-        items: [
-          // This is where the "add button" button goes.
-        ]
-      };
-
-      const mainGroups = Cell([ backToReadOnlyGroup, actionGroup, extraGroup ]);
-      const readOnlyGroups = Cell([ backToMaskGroup, readOnlyGroup, extraGroup ]);
-
-      // Investigate ways to keep in sync with the ui
-      FormatChangers.init(realm, editor);
-    });
+    };
 
     return {
-      iframeContainer: realm.socket().element().dom(),
-      editorContainer: realm.element().dom()
+      getNotificationManagerImpl () {
+        return {
+          open: Fun.identity,
+          close: Fun.noop,
+          reposition: Fun.noop,
+          getArgs: Fun.identity
+        };
+      },
+      renderUI
     };
-  };
+  });
 
-  return {
-    getNotificationManagerImpl () {
-      return {
-        open: Fun.identity,
-        close: Fun.noop,
-        reposition: Fun.noop,
-        getArgs: Fun.identity
-      };
-    },
-    renderUI
-  };
-});
+};
 
-export default function () { }
+export default {
+  init
+};
