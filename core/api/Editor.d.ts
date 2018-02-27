@@ -1,4 +1,3 @@
-import { Settings } from 'tinymce/core/api/Settings';
 import { Selection } from 'tinymce/core/api/dom/Selection';
 import SelectionOverrides from 'tinymce/core/SelectionOverrides';
 /**
@@ -45,7 +44,7 @@ export interface Editor {
  * @param {tinymce.EditorManager} editorManager EditorManager instance.
  */
 export class Editor {
-  constructor(id: string, settings: Settings, editorManager: any);
+  constructor(id: string, settings: any, editorManager: any);
 
   $: any;
 
@@ -109,15 +108,15 @@ export class Editor {
 
   execCommand(cmd: string, ui: boolean, value?: any, args?: {}): void;
 
-  focus(skipFocus: boolean): void;
+  focus(skipFocus?: boolean): void;
 
-  getBody(): HTMLBodyElement;
+  getBody(): HTMLElement;
 
   getContainer(): Element;
 
   getContent(args?: {}): string;
 
-  getContentAreaContainer(): Element;
+  getContentAreaContainer(): HTMLElement;
 
   getDoc(): Document;
 
