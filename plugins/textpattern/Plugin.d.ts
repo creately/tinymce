@@ -1,1 +1,2 @@
-export default function (): void;
+declare const init: () => void;
+export default init;

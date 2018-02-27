@@ -13,13 +13,15 @@ import Buttons from './ui/Buttons';
 import * as Panel from './ui/Panel';
 import Api from 'tinymce/ui/Api';
 import FormatControls from 'tinymce/ui/FormatControls';
-Api.registerToFactory();
-Api.appendTo(window.tinymce ? window.tinymce : {});
-ThemeManager.add('inlite', function (editor) {
-    var panel = Panel.create();
-    FormatControls.setup(editor);
-    Buttons.addToEditor(editor, panel);
-    return ThemeApi.get(editor, panel);
-});
-export default function () { }
+var init = function () {
+    Api.registerToFactory();
+    Api.appendTo(window.tinymce ? window.tinymce : {});
+    ThemeManager.add('inlite', function (editor) {
+        var panel = Panel.create();
+        FormatControls.setup(editor);
+        Buttons.addToEditor(editor, panel);
+        return ThemeApi.get(editor, panel);
+    });
+};
+export default init;
 //# sourceMappingURL=Theme.js.map
