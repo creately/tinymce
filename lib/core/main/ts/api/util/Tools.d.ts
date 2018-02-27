@@ -1,0 +1,20 @@
+declare const _default: {
+    trim: (str: any) => string;
+    isArray: (obj: any) => boolean;
+    is: (obj: any, type: any) => boolean;
+    toArray: (obj: any) => any;
+    makeMap: (items: any, delim?: any, map?: any) => any;
+    each: (o: any, cb: any, s?: any) => 1 | 0;
+    map: (array: any, callback: any) => any[];
+    grep: (a: any, f?: any) => any[];
+    inArray: (a: any, v: any) => any;
+    hasOwn: (obj: any, prop: any) => any;
+    extend: (obj: any, ext: any, ...x: any[]) => any;
+    create: (s: any, p: any, root: any) => void;
+    walk: (o: any, f: any, n?: any, s?: any) => void;
+    createNS: (n: any, o: any) => any;
+    resolve: (n: any, o?: any) => any;
+    explode: (s: any, d?: any) => any;
+    _addCacheSuffix: (url: any) => any;
+};
+export default _default;

@@ -1,0 +1,1 @@
+{"version":3,"file":"Commands.js","sourceRoot":"","sources":["../../../../../../src/plugins/hr/main/ts/api/Commands.ts"],"names":[],"mappings":"AAAA;;;;;;;;GAQG;AAEH,IAAM,QAAQ,GAAG,UAAU,MAAM;IAC/B,MAAM,CAAC,UAAU,CAAC,sBAAsB,EAAE;QACxC,MAAM,CAAC,WAAW,CAAC,kBAAkB,EAAE,KAAK,EAAE,QAAQ,CAAC,CAAC;IAC1D,CAAC,CAAC,CAAC;AACL,CAAC,CAAC;AAEF,eAAe;IACb,QAAQ,UAAA;CACT,CAAC"}
