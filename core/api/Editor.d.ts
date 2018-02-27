@@ -74,7 +74,7 @@ export class Editor {
 
   serializer: any;
 
-  settings: Settings;
+  settings: any;
 
   theme: any;
 
