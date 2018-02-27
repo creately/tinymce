@@ -37,9 +37,7 @@ mentions
 *.dev.less
 **/dist
 **/scratch
-**/lib/globals
-**/lib/**/demo
-**/lib/**/test
+**/lib
 **/dependency
 **/instrumented_*
 .rpt2_cache
