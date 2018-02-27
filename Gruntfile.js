@@ -323,7 +323,19 @@ module.exports = function (grunt) {
         files: [
           { src: 'src/plugins/visualblocks/main/css/visualblocks.css', dest: 'js/tinymce/plugins/visualblocks/css/visualblocks.css' }
         ]
-      }
+      },
+
+      // Core
+      distCore: { expand: true, cwd: 'lib/core/main/ts/',src: '**', dest: 'core', },
+      distUi: { expand: true, cwd: 'lib/ui/main/ts/', src: '**', dest: 'ui', },
+
+      // Plugins
+      textpattern: { expand: true, cwd: 'lib/plugins/textpattern/main/ts/', src: '**', dest: 'plugins/textpattern'},
+      textcolor: { expand: true, cwd: 'lib/plugins/textcolor/main/ts/', src: '**', dest: 'plugins/textcolor'},
+
+      // Themes
+      inlight: { expand: true, cwd: 'lib/themes/inlite/main/ts/', src: '**', dest: 'themes/inlite'},
+      modern: { expand: true, cwd: 'lib/themes/modern/main/ts/', src: '**', dest: 'themes/modern'},
     },
 
     moxiezip: {
@@ -775,7 +787,8 @@ module.exports = function (grunt) {
           spawn: false
         }
       }
-    }
+    },
+
   });
 
   grunt.registerTask('version', 'Creates a version file', function () {
