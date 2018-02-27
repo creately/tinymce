@@ -1,11 +1,3 @@
-import { Serializer } from 'tinymce/core/api/dom/Serializer';
-import { Schema } from 'tinymce/core/api/html/Schema';
-import { DomParser } from 'tinymce/core/api/html/DomParser';
-import { Formatter } from 'tinymce/plugins/textpattern/core/Formatter';
-import { DOMUtils } from 'tinymce/core/api/dom/DOMUtils';
-import { URI } from 'tinymce/core/api/util/URI';
-import { DomQuery } from 'tinymce/core/api/dom/DomQuery';
-import { EditorManager } from 'tinymce/core/api/EditorManager';
 import { Settings } from 'tinymce/core/api/Settings';
 import { Selection } from 'tinymce/core/api/dom/Selection';
 import SelectionOverrides from 'tinymce/core/SelectionOverrides';
@@ -53,21 +45,21 @@ export interface Editor {
  * @param {tinymce.EditorManager} editorManager EditorManager instance.
  */
 export class Editor {
-  constructor(id: string, settings: Settings, editorManager: EditorManager);
+  constructor(id: string, settings: Settings, editorManager: any);
 
-  $: DomQuery;
+  $: any;
 
-  baseURI: URI;
+  baseURI: any;
 
   contentCSS: string[];
 
   contentStyles: string[];
 
-  documentBaseURI: URI;
+  documentBaseURI: any;
 
-  dom: DOMUtils;
+  dom: any;
 
-  formatter: Formatter;
+  formatter: any;
 
   id: string;
 
@@ -75,13 +67,13 @@ export class Editor {
 
   notificationManager: any;
 
-  parser: DomParser;
+  parser: any;
 
-  schema: Schema;
+  schema: any;
 
   selection: Selection;
 
-  serializer: Serializer;
+  serializer: any;
 
   settings: Settings;
 
@@ -179,3 +171,4 @@ export class Editor {
 
   uploadImages(callback: () => void): Promise<any>;
 }
+
