@@ -19,4 +19,4 @@ const init = function () {
   });
 };
 
-export default init;
+export default { init };
