@@ -326,16 +326,16 @@ module.exports = function (grunt) {
       },
 
       // Core
-      distCore: { expand: true, cwd: 'lib/core/main/ts/',src: '**', dest: 'core', },
-      distUi: { expand: true, cwd: 'lib/ui/main/ts/', src: '**', dest: 'ui', },
+      distCore: { expand: true, cwd: 'src/core/main/ts/',src: '**', dest: 'core', },
+      distUi: { expand: true, cwd: 'src/ui/main/ts/', src: '**', dest: 'ui', },
 
       // Plugins
-      textpattern: { expand: true, cwd: 'lib/plugins/textpattern/main/ts/', src: '**', dest: 'plugins/textpattern'},
-      textcolor: { expand: true, cwd: 'lib/plugins/textcolor/main/ts/', src: '**', dest: 'plugins/textcolor'},
+      textpattern: { expand: true, cwd: 'src/plugins/textpattern/main/ts/', src: '**', dest: 'plugins/textpattern'},
+      textcolor: { expand: true, cwd: 'src/plugins/textcolor/main/ts/', src: '**', dest: 'plugins/textcolor'},
 
       // Themes
-      inlight: { expand: true, cwd: 'lib/themes/inlite/main/ts/', src: '**', dest: 'themes/inlite'},
-      modern: { expand: true, cwd: 'lib/themes/modern/main/ts/', src: '**', dest: 'themes/modern'},
+      inlight: { expand: true, cwd: 'src/themes/inlite/main/ts/', src: '**', dest: 'themes/inlite'},
+      modern: { expand: true, cwd: 'src/themes/modern/main/ts/', src: '**', dest: 'themes/modern'},
     },
 
     moxiezip: {

@@ -1,1 +1,0 @@
-{"version":3,"file":"StackLayout.js","sourceRoot":"","sources":["../../../../src/ui/main/ts/StackLayout.ts"],"names":[],"mappings":"AAAA;;;;;;;;GAQG;AAEH,OAAO,UAAU,MAAM,cAAc,CAAC;AAEtC;;;;;;GAMG;AAEH,eAAe,UAAU,CAAC,MAAM,CAAC;IAC/B,QAAQ,EAAE;QACR,cAAc,EAAE,cAAc;QAC9B,YAAY,EAAE,mBAAmB;QACjC,QAAQ,EAAE,OAAO;KAClB;IAED,QAAQ;QACN,MAAM,CAAC,IAAI,CAAC;IACd,CAAC;CACF,CAAC,CAAC"}
