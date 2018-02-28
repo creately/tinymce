@@ -326,7 +326,7 @@ module.exports = function (grunt) {
       },
 
 
-      /* Copy ts directories to root to remove fix the import issue, so that 
+      /* Copy folders to the root dir to fix the import issue, so that 
           'tinymce/core/.....'
           'tinymce/plugins...' etc. imports will work 
       */
@@ -338,6 +338,7 @@ module.exports = function (grunt) {
       // Plugins
       textpattern: { expand: true, cwd: 'src/plugins/textpattern/main/ts/', src: '**', dest: 'plugins/textpattern'},
       textcolor: { expand: true, cwd: 'src/plugins/textcolor/main/ts/', src: '**', dest: 'plugins/textcolor'},
+      textcolor: { expand: true, cwd: 'src/plugins/colorpicker/main/ts/', src: '**', dest: 'plugins/colorpicker'},
 
       // Themes
       inlight: { expand: true, cwd: 'src/themes/inlite/main/ts/', src: '**', dest: 'themes/inlite'},
