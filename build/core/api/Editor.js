@@ -7,12 +7,12 @@
  * License: http://www.tinymce.com/license
  * Contributing: http://www.tinymce.com/contributing
  */
-import AddOnManager from './AddOnManager';
+import { AddOnManager } from './AddOnManager';
 import EditorCommands from './EditorCommands';
 import EditorObservable from './EditorObservable';
-import * as EditorSettings from '../EditorSettings';
+import { getEditorSettings, getParam } from '../EditorSettings';
 import Env from './Env';
-import Mode from '../Mode';
+import * as Mode from '../Mode';
 import Shortcuts from './Shortcuts';
 import DOMUtils from './dom/DOMUtils';
 import DomQuery from './dom/DomQuery';
@@ -45,9 +45,8 @@ var ie = Env.ie;
  */
 export var Editor = function (id, settings, editorManager) {
     var self = this;
-    var documentBaseUrl, baseUri;
-    documentBaseUrl = self.documentBaseUrl = editorManager.documentBaseURL;
-    baseUri = editorManager.baseURI;
+    var documentBaseUrl = self.documentBaseUrl = editorManager.documentBaseURL;
+    var baseUri = editorManager.baseURI;
     /**
      * Name/value collection with editor settings.
      *
@@ -57,7 +56,7 @@ export var Editor = function (id, settings, editorManager) {
      * // Get the value of the theme setting
      * tinymce.activeEditor.windowManager.alert("You are using the " + tinymce.activeEditor.settings.theme + " theme");
      */
-    settings = EditorSettings.getEditorSettings(self, id, documentBaseUrl, editorManager.defaultSettings, settings);
+    settings = getEditorSettings(self, id, documentBaseUrl, editorManager.defaultSettings, settings);
     self.settings = settings;
     AddOnManager.language = settings.language || 'en';
     AddOnManager.languageLoad = settings.language_load;
@@ -182,6 +181,15 @@ Editor.prototype = {
         EditorFocus.focus(this, skipFocus);
     },
     /**
+     * Returns true/false if the editor has real keyboard focus.
+     *
+     * @method hasFocus
+     * @return {Boolean} Current focus state of the editor.
+     */
+    hasFocus: function () {
+        return EditorFocus.hasFocus(this);
+    },
+    /**
      * Executes a legacy callback. This method is useful to call old 2.x option callbacks.
      * There new event model is a better way to add callback so this method might be removed in the future.
      *
@@ -190,6 +198,10 @@ Editor.prototype = {
      * @return {Object} Return value passed from callback function.
      */
     execCallback: function (name) {
+        var x = [];
+        for (var _i = 1; _i < arguments.length; _i++) {
+            x[_i - 1] = arguments[_i];
+        }
         var self = this;
         var callback = self.settings[name], scope;
         if (!callback) {
@@ -253,7 +265,7 @@ Editor.prototype = {
      * var someval2 = tinymce.get('my_editor').getParam('myvalue');
      */
     getParam: function (name, defaultVal, type) {
-        return EditorSettings.getParam(this, name, defaultVal, type);
+        return getParam(this, name, defaultVal, type);
     },
     /**
      * Dispatches out a onNodeChange event to all observers. This method should be called when you
@@ -916,7 +928,7 @@ Editor.prototype = {
                     }
                     return;
                 case 'A':
-                    if (!dom.getAttrib(elm, 'href', false)) {
+                    if (!dom.getAttrib(elm, 'href')) {
                         value = dom.getAttrib(elm, 'name') || elm.id;
                         cls = settings.visual_anchor_class || 'mce-item-anchor';
                         if (value && self.hasVisual) {
@@ -966,3 +978,4 @@ Editor.prototype = {
     }
 };
 extend(Editor.prototype, EditorObservable);
+//# sourceMappingURL=Editor.js.map
