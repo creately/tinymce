@@ -19,20 +19,20 @@
     "lint": "tslint src/**/*.ts"
   },
   "dependencies": {
-    "@ephox/alloy": "^2.0.5",
-    "@ephox/boulder": "^3.0.5",
-    "@ephox/darwin": "^3.0.6",
-    "@ephox/katamari": "^2.1.10",
-    "@ephox/sand": "^2.0.8",
-    "@ephox/snooker": "^4.0.9",
-    "@ephox/sugar": "^4.0.10",
-    "@ephox/imagetools": "^3.0.10"
+    "@ephox/alloy": "latest",
+    "@ephox/boulder": "latest",
+    "@ephox/darwin": "latest",
+    "@ephox/katamari": "latest",
+    "@ephox/sand": "latest",
+    "@ephox/snooker": "latest",
+    "@ephox/sugar": "latest",
+    "@ephox/imagetools": "latest"
   },
   "devDependencies": {
-    "@ephox/agar": "^3.0.10",
-    "@ephox/bedrock": "^2.1.0",
-    "@ephox/mcagar": "^2.0.5",
-    "@ephox/swag": "^2.1.1",
+    "@ephox/agar": "latest",
+    "@ephox/bedrock": "latest",
+    "@ephox/mcagar": "latest",
+    "@ephox/swag": "latest",
     "awesome-typescript-loader": "^3.4.1",
     "grunt": "~1.0.1",
     "grunt-contrib-clean": "~1.1.0",
