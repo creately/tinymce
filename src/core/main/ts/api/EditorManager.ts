@@ -638,7 +638,7 @@ EditorManager = {
 
     // Remove editors by selector
     if (Type.isString(selector)) {
-      selector = selector.selector || selector;
+      selector = (selector as any).selector || selector;
 
       each(DOM.select(selector), function (elm) {
         editor = self.get(elm.id);
