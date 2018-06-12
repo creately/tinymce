@@ -158,7 +158,7 @@ class Node {
     let attrs: Attributes, i;
 
     if (typeof name !== 'string') {
-      for (i in name) {
+      for (i in name as any) {
         self.attr(i, name[i]);
       }
 
