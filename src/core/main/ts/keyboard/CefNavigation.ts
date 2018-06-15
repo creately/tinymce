@@ -228,7 +228,10 @@ const getVerticalRange = (editor, down: boolean): Range => {
   return null;
 };
 
-const moveH = (editor, forward: boolean): () => boolean => {
+// Changed return type from () => boolean to any
+// Lambda notation started throwing errors after
+// typescript version change.
+const moveH = (editor, forward: boolean): any => {
   return () => {
     const newRng = getHorizontalRange(editor, forward);
 
@@ -241,7 +244,10 @@ const moveH = (editor, forward: boolean): () => boolean => {
   };
 };
 
-const moveV = (editor, down: boolean): () => boolean => {
+// Changed return type from () => boolean to any
+// Lambda notation started throwing errors after
+// typescript version change.
+const moveV = (editor, down: boolean): any => {
   return () => {
     const newRng = getVerticalRange(editor, down);
 
